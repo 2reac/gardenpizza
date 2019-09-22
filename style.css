@@ -235,30 +235,31 @@ img {
 /*scrol to top*/
 
 .scrollToTop {
-  bottom: 60px;
-  color: #fff;
+  bottom: 48px;
+  color: white;
   display: none;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 50px;
   position: fixed;
-  right: 20px;
+  right: 15px;
   text-align: center;
   text-decoration: none;
   width: 55px;
+  height: 55px;
   z-index: 999;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -ms-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  height: 55px;
   border-radius: 50%;
+  background-color: #ffaa45;
 }
-
 
 .scrollToTop:hover,
 .scrollToTop:focus {
-  color: #fff;
+  background-color: #ffaa45;
+  color: #white;
 }
 
 /*==================

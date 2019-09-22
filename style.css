@@ -18,9 +18,9 @@
 */
 
 body {
-  background-color: #ffffff;
+  background-color: #dadada;
   font-family: "Prata", serif;
-  color: #333333;
+  color: #32363a;
   font-size: 16px;
   overflow-x: hidden;
   line-height: 24px;
@@ -181,7 +181,9 @@ img {
 }
 
 .gp-main-navbar .gp-main-nav li a {
-  color: #333;
+  color: #fff;
+  background-color: #29c666;
+  border-radius: 16px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -225,7 +227,8 @@ img {
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-  background-color: transparent;
+  color: #29c666;
+  background-color: white;
 }
 
 
@@ -1516,11 +1519,11 @@ RESERVATION SECTION
 @media (max-width: 991px) {
 
 
-  .gp-main-navbar .gp-main-nav li a {
+  /* .gp-main-navbar .gp-main-nav li a {
     padding-left: 5px;
     padding-right: 5px;
     font-size: 14px;
-  }
+  } */
 
   .gp-top-slider-content .gp-reservation-btn {
     display: none;
@@ -1563,16 +1566,22 @@ RESERVATION SECTION
   }
 
   .navbar-default .navbar-toggle {
-    border-radius: 0px;
+    border-radius: 8px;
+    border: none;
   }
 
   .navbar-default .navbar-toggle:hover, 
   .navbar-default .navbar-toggle:focus {
-    background-color: #fff;
+    background-color: white;
+  }
+
+  .navbar-default .navbar-toggle:hover .icon-bar,
+  .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #32363a;
   }
 
   .gp-main-navbar .gp-main-nav {
-    background-color: #fff;
+    background-color: #32363a;
     text-align: center;
   }
 
@@ -1594,7 +1603,12 @@ RESERVATION SECTION
   
   .navbar-default .navbar-toggle:hover, 
   .navbar-default .navbar-toggle:focus {
-    background-color: #fff;
+    background-color: white;
+  }
+  
+  .navbar-default .navbar-toggle:hover .icon-bar,
+  .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #32363a;
   }
 
   #gp-slider .gp-slider-area .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-title {

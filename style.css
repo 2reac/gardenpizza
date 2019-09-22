@@ -20,7 +20,7 @@
 
 
 body {
-  background-color: #dadada;
+  background-color: var(--gp-white);
   font-family: "Prata", serif;
   color: var(--gp-gray);
   font-size: 16px;
@@ -30,6 +30,9 @@ body {
 
 .no-padding {
   padding: 0;
+}
+.no-margin {
+  margin: 0;
 }
 
 
@@ -180,6 +183,7 @@ img {
 
 .gp-main-navbar .gp-main-nav {
   font-family: "Open Sans", sans-serif;
+  font-size: 20px;
 }
 
 .gp-main-navbar .gp-main-nav li a {
@@ -262,7 +266,6 @@ img {
 .scrollToTop:focus {
   background-color: var(--gp-gray);
   color: var(--gp-scnd);
-  opacity: 0.75;
 }
 
 /*==================
@@ -1415,10 +1418,11 @@ RESERVATION SECTION
 ====================*/
 
 #gp-footer {
-  background-color: #444;
+  background-color: var(--gp-main);
+  color: var(--gp-gray);
   display: inline;
   float: left;
-  padding: 50px 0;
+  padding: 50px 0 25px 0;
   width: 100%;
 }
 
@@ -1429,16 +1433,19 @@ RESERVATION SECTION
   text-align: center;
 }
 
+.gp-footer-end {
+  align-items: center;
+  display: flex;
+}
+
 .gp-footer-social {
-  display: inline;
-  float: left;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
+  justify-content: flex-end;
+  display: flex;
+  width: 50%;
 }
 
 .gp-footer-social a {
-  background-color: #555;
+  background-color: var(--gp-gray);
   border-radius: 50%;
   color: #fff;
   display: inline-block;
@@ -1455,23 +1462,20 @@ RESERVATION SECTION
   transition: all 0.5s;
 }
 
+.gp-footer-social a:hover {
+  color: var(--gp-scnd);
+}
+
 .gp-footer-copyright {
-  display: inline;
-  float: left;
-  width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  width: 50%;
 }
 
 .gp-footer-copyright p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  color: #fff;
+  color: black;
 }
-
-.gp-footer-copyright p a {
-  color: #fff;
-}
-
 
 /*==================
  RESPONSIVE DESIGN
@@ -1529,6 +1533,17 @@ RESERVATION SECTION
     font-size: 14px;
   } */
 
+  .gp-footer-end {
+    flex-direction: column-reverse;
+  }
+
+  .gp-footer-copyright,
+  .gp-footer-social {
+    justify-content: initial;
+    display: inline;
+    width: 100%;
+  }
+  
   .gp-top-slider-content .gp-reservation-btn {
     display: none;
   }

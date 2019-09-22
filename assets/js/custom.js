@@ -29,7 +29,7 @@ jQuery(function($){
   /*  1. TOP SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */    
 
-    jQuery('.mu-top-slider').slick({
+    jQuery('.gp-top-slider').slick({
       dots: true,
       infinite: true,
       arrows: false,
@@ -43,7 +43,7 @@ jQuery(function($){
   /*  2. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
   /* ----------------------------------------------------------- */ 
 
-  $('.mu-imglink').magnificPopup({
+  $('.gp-imglink').magnificPopup({
     type: 'image',
     mainClass: 'mfp-fade',
     gallery:{
@@ -61,7 +61,7 @@ jQuery(function($){
   /* 4. SHEF SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */    
 
-    jQuery('.mu-chef-nav').slick({
+    jQuery('.gp-chef-nav').slick({
       dots: true,
       arrows: false,
       infinite: true,
@@ -104,7 +104,7 @@ jQuery(function($){
   /*  5. TESTIMONIAL SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */    
 
-    jQuery('.mu-testimonial-slider').slick({
+    jQuery('.gp-testimonial-slider').slick({
       dots: true,      
       infinite: true,
       arrows: false,
@@ -117,12 +117,12 @@ jQuery(function($){
   /*  6. GOOGLE MAP
   /* ----------------------------------------------------------- */ 
         
-    $('#mu-map').click(function () {
-        $('#mu-map iframe').css("pointer-events", "auto");
+    $('#gp-map').click(function () {
+        $('#gp-map iframe').css("pointer-events", "auto");
     });
     
-    $("#mu-map").mouseleave(function() {
-      $('#mu-map iframe').css("pointer-events", "none"); 
+    $("#gp-map").mouseleave(function() {
+      $('#gp-map iframe').css("pointer-events", "none"); 
     });
     
 
@@ -137,7 +137,7 @@ jQuery(function($){
 
       // Cache selectors
       var lastId,
-      topMenu = $(".mu-main-nav"),
+      topMenu = $(".gp-main-nav"),
       topMenuHeight = topMenu.outerHeight()+13,
       // All list items
       menuItems = topMenu.find('a[href^=\\#]'),
@@ -219,7 +219,7 @@ jQuery(function($){
   /*  10. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
   /* ----------------------------------------------------------- */
 
-    $('.mu-reservation-btn').on('click',function (e) {
+    $('.gp-reservation-btn').on('click',function (e) {
           e.preventDefault();
           var target = this.hash,
           $target = $(target);

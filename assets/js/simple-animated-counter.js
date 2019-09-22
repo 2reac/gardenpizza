@@ -1,7 +1,7 @@
 var a = 0;
 $(window).scroll(function() {
 
-  var oTop = $('.mu-counter-nav').offset().top - window.innerHeight;
+  var oTop = $('.gp-counter-nav').offset().top - window.innerHeight;
   if (a == 0 && $(window).scrollTop() > oTop) {
     $('.counter-value').each(function() {
       var $this = $(this),

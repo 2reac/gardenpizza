@@ -1,12 +1,3 @@
-/*
-  Template Name: OsteriaX
-  Author : MarkUps
-  Author URI: http://www.markups.io/
-  Version: 1.0
-  Tags: light, white, restaurant, multi page, landing page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
-
-*/
-
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
@@ -30,7 +21,7 @@ body {
   background-color: #ffffff;
   font-family: "Prata", serif;
   color: #333333;
-  font-size: 15px;
+  font-size: 16px;
   overflow-x: hidden;
   line-height: 24px;
 }
@@ -158,14 +149,11 @@ img {
   color: #fff;
 }
 
+/* HEADER SECTION */
 
-/*==================
- HEADER SECTION
-====================*/
-
-#mu-header {
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+#gp-header {
+  background-color: #32363a;
+  border-bottom: 4px solid #ffaa45;
   position: fixed;
   left: 0;
   top: 0;
@@ -174,10 +162,7 @@ img {
   z-index: 999;
 }
 
-
-/*==================
- NAVBAR SECTION
-====================*/
+/* NAVBAR SECTION */
 .mu-main-navbar {
   background-color: transparent;
   border: none;
@@ -213,15 +198,11 @@ img {
   padding: 10px 20px;
 }
 
-.mu-main-navbar .navbar-header .navbar-brand {
-  color: #333;
+.navbar-brand {
   display: inline-block;
-  font-weight: 700;
-  font-size: 35px;  
   padding: 0;
-  margin-top: 16px;
-  height: 34px;
-  width: 180px;
+  height: auto;
+  width: 200px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -229,20 +210,17 @@ img {
   transition: all 0.5s;
 }
 
-.mu-main-navbar .navbar-header .navbar-brand img {
+/* .mu-main-navbar .navbar-header .navbar-brand img {
   margin-top: -10px;
 }
-
-
 .mu-main-navbar .navbar-header .navbar-brand-small {
   height: 20px;
   margin-top: 16px;
   width: 105px;
 }
-
 .mu-main-navbar .navbar-header .navbar-brand-small span {
   margin-top: -4px;
-}
+} */
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
@@ -1580,7 +1558,7 @@ RESERVATION SECTION
 
 @media (max-width: 767px) {
 
-  #mu-header {
+  #gp-header {
     padding: 0 15px;
   }
 

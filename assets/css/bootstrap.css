@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import "../../variables.css";
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -4519,7 +4521,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #29c666;
+  color: var(--gp-scnd);
   background-color: white;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4542,10 +4544,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #ddd;
 }
 .navbar-default .navbar-toggle.collapsed .icon-bar {
-  background-color: #ffaa45;
+  background-color: var(--gp-main);
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #32363a;
+  background-color: var(--gp-gray);
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {

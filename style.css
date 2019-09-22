@@ -21,7 +21,7 @@
 
 body {
   background-color: var(--gp-white);
-  font-family: "Prata", serif;
+  font-family: "Open Sans", serif;
   color: var(--gp-gray);
   font-size: 16px;
   overflow-x: hidden;
@@ -60,13 +60,6 @@ h4,
 h5, 
 h6 {
   font-family: "Open Sans", sans-serif;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 40px;
-  margin: 0;
 }
 
 img {
@@ -1434,6 +1427,7 @@ RESERVATION SECTION
 }
 
 .gp-footer-end {
+  border-top: 1px solid var(--gp-gray);
   align-items: center;
   display: flex;
 }
@@ -1532,6 +1526,17 @@ RESERVATION SECTION
     padding-right: 5px;
     font-size: 14px;
   } */
+  
+  .column-footer {
+    padding-top: 24px;
+    border-bottom: 1px solid var(--gp-gray);
+  }
+  .column-footer:first-child {
+    padding-top: 0px;
+  }
+  .column-footer:last-child {
+    border-bottom: 0;
+  }
 
   .gp-footer-end {
     flex-direction: column-reverse;

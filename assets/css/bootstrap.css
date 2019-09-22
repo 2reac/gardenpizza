@@ -4541,8 +4541,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-toggle:focus {
   background-color: #ddd;
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle.collapsed .icon-bar {
   background-color: #ffaa45;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #32363a;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {

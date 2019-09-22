@@ -236,7 +236,7 @@ img {
 
 .scrollToTop {
   bottom: 48px;
-  color: white;
+  color: #29c666;
   display: none;
   font-size: 32px;
   line-height: 50px;
@@ -253,13 +253,13 @@ img {
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   border-radius: 50%;
-  background-color: #ffaa45;
+  background-color: #32363a;
 }
 
 .scrollToTop:hover,
 .scrollToTop:focus {
-  background-color: #ffaa45;
-  color: white;
+  background-color: #32363a;
+  color: #29c666;
 }
 
 /*==================
@@ -1576,11 +1576,6 @@ RESERVATION SECTION
     background-color: white;
   }
 
-  .navbar-default .navbar-toggle:hover .icon-bar,
-  .navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #32363a;
-  }
-
   .gp-main-navbar .gp-main-nav {
     background-color: #32363a;
     text-align: center;
@@ -1607,11 +1602,6 @@ RESERVATION SECTION
     background-color: white;
   }
   
-  .navbar-default .navbar-toggle:hover .icon-bar,
-  .navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #32363a;
-  }
-
   #gp-slider .gp-slider-area .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-title {
     font-size: 50px;
     line-height: 75px;

@@ -44,7 +44,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: inherit;
 }
 
 a:hover,
@@ -188,6 +188,11 @@ img {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.gp-main-navbar .gp-main-nav li a.active {
+  background-color: white;
+  color: var(--gp-scnd);
 }
 
 .gp-main-navbar .gp-main-nav .dropdown-menu {
@@ -1415,7 +1420,7 @@ RESERVATION SECTION
   color: var(--gp-gray);
   display: inline;
   float: left;
-  padding: 50px 0 25px 0;
+  padding: 35px 0 25px 0;
   width: 100%;
 }
 

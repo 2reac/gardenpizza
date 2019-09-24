@@ -3982,7 +3982,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
 }
-.nav > li > a {
+
+.nav > li > a, .gp-dropdown .gp-dropbtn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -4322,7 +4323,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav {
   margin: 0;
 }
-.navbar-nav > li > a {
+.navbar-nav > li > a, .gp-dropdown .gp-dropbtn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
@@ -4368,7 +4369,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li:last-child {
     margin-right: 0px;
   }
-  .navbar-nav > li > a {
+  .navbar-nav > li > a, .gp-dropdown .gp-dropbtn {
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -4521,6 +4522,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
+  color: var(--gp-scnd);
+  background-color: white;
+}
+.navbar-default .navbar-nav > li a:hover,
+.navbar-default .navbar-nav > li a:focus {
   color: var(--gp-scnd);
   background-color: white;
 }

@@ -18,7 +18,6 @@
 */
 @import "variables.css";
 
-
 body {
   background-color: var(--gp-white);
   font-family: "Cabin", "Open Sans";
@@ -31,10 +30,10 @@ body {
 .no-padding {
   padding: 0;
 }
+
 .no-margin {
   margin: 0;
 }
-
 
 ul {
   padding: 0;
@@ -53,11 +52,11 @@ a:focus {
   text-decoration: none;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
   font-family: "Open Sans", sans-serif;
 }
@@ -95,12 +94,12 @@ img {
   transition: all 0.2s;
 }
 
-.gp-readmore-btn:hover, 
+.gp-readmore-btn:hover,
 .gp-readmore-btn:focus {
   color: #fff;
 }
 
-.gp-readmore-btn:hover::after, 
+.gp-readmore-btn:hover::after,
 .gp-readmore-btn:focus::after {
   bottom: 0px;
   content: "";
@@ -124,7 +123,7 @@ img {
   transition: all 0.5s;
 }
 
-.gp-browsmore-btn:hover, 
+.gp-browsmore-btn:hover,
 .gp-browsmore-btn:focus {
   color: #fff;
 }
@@ -142,7 +141,7 @@ img {
   transition: all 0.5s;
 }
 
-.gp-send-btn:hover, 
+.gp-send-btn:hover,
 .gp-send-btn:focus {
   color: #fff;
 }
@@ -161,6 +160,7 @@ img {
 }
 
 /* NAVBAR SECTION */
+
 .gp-main-navbar {
   background-color: transparent;
   border: none;
@@ -229,9 +229,9 @@ img {
   margin-top: -4px;
 } */
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
   color: var(--gp-scnd);
   background-color: white;
 }
@@ -281,6 +281,7 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 .gp-dropdown:not(:hover) .gp-dropdown-content {
   opacity: 0;
   -webkit-transition: all 0.5s;
@@ -290,7 +291,7 @@ img {
   transition: all 0.5s;
 }
 
-/*scrol to top*/
+/*scroll to top*/
 
 .scrollToTop {
   bottom: 48px;
@@ -320,9 +321,7 @@ img {
   color: var(--gp-scnd);
 }
 
-/*==================
-	SLIDER SECTION
-====================*/
+/* SLIDER SECTION */
 
 #gp-slider {
   display: inline;
@@ -425,14 +424,14 @@ img {
   color: #888;
 }
 
-.gp-top-slider .slick-prev:hover, 
+.gp-top-slider .slick-prev:hover,
 .gp-top-slider .slick-prev:focus,
 .gp-top-slider .slick-next:hover,
 .gp-top-slider .slick-next:focus {
   color: #fff;
 }
 
-.gp-top-slider .slick-prev:hover::before, 
+.gp-top-slider .slick-prev:hover::before,
 .gp-top-slider .slick-prev:focus::before,
 .gp-top-slider .slick-next:hover::before,
 .gp-top-slider .slick-next:focus::before {
@@ -470,10 +469,7 @@ img {
   opacity: 1;
 }
 
-
-/*==================
-	ABOUT US SECTION
-====================*/
+/* ABOUT US SECTION */
 
 #gp-about-us {
   display: inline;
@@ -542,10 +538,7 @@ img {
   margin-bottom: 5px;
 }
 
-
-/*==================
- COUNTER SECTION
-====================*/
+/* COUNTER SECTION */
 
 #gp-counter {
   background-attachment: fixed;
@@ -624,9 +617,7 @@ img {
   margin-bottom: 0;
 }
 
-/*==================
- MENU ITEM SECTION
-====================*/
+/* MENU ITEM SECTION */
 
 #gp-restaurant-menu {
   display: inline;
@@ -753,9 +744,7 @@ img {
   font-size: 14px;
 }
 
-/*==================
-RESERVATION SECTION
-====================*/
+/* RESERVATION SECTION */
 
 #gp-reservation {
   background-color: #222;
@@ -868,7 +857,7 @@ RESERVATION SECTION
   color: #555;
 }
 
- .gp-reservation-form textarea:-moz-placeholder {
+.gp-reservation-form textarea:-moz-placeholder {
   color: #555;
 }
 
@@ -891,19 +880,19 @@ RESERVATION SECTION
   padding: 6px 10px;
 }
 
-.datepicker .datepicker-switch, 
-.datepicker .prev, 
-.datepicker .next, 
+.datepicker .datepicker-switch,
+.datepicker .prev,
+.datepicker .next,
 .datepicker tfoot tr th {
   font-size: 20px;
 }
 
-.table-condensed > thead > tr > th, 
-.table-condensed > tbody > tr > th, 
-.table-condensed > tfoot > tr > th, 
-.table-condensed > thead > tr > td, 
-.table-condensed > tbody > tr > td, 
-.table-condensed > tfoot > tr > td {
+.table-condensed>thead>tr>th,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>tbody>tr>td,
+.table-condensed>tfoot>tr>td {
   padding: 6px;
 }
 
@@ -940,7 +929,7 @@ RESERVATION SECTION
   letter-spacing: 2px;
 }
 
-.gp-opening-hour ul p{
+.gp-opening-hour ul p {
   color: #000;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -948,9 +937,7 @@ RESERVATION SECTION
   font-weight: 600;
 }
 
-/*==================
- GALLERY SECTION
-====================*/
+/* GALLERY SECTION */
 
 #gp-gallery {
   display: inline;
@@ -1009,7 +996,7 @@ RESERVATION SECTION
 }
 
 .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-img img {
-  
+
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   -ms-transition: all 0.8s;
@@ -1034,10 +1021,7 @@ RESERVATION SECTION
   transition: all 0.8s;
 }
 
-
-/*==================
-  TESTIMONIAL SECTION
-====================*/
+/* TESTIMONIAL SECTION */
 
 #gp-client-testimonial {
   background-image: url("assets/img/testimonial-bg.jpg");
@@ -1166,11 +1150,7 @@ RESERVATION SECTION
   display: none;
 }
 
-
-/*==================
-  CHEF SECTION
-====================*/
-
+/* CHEF SECTION */
 
 #gp-chef {
   display: inline;
@@ -1283,7 +1263,7 @@ RESERVATION SECTION
   transition: all 0.5s;
 }
 
-.gp-chef-nav .slick-list li .gp-single-chef .gp-single-chef-social a:hover, 
+.gp-chef-nav .slick-list li .gp-single-chef .gp-single-chef-social a:hover,
 .gp-chef-nav .slick-list li .gp-single-chef .gp-single-chef-social a:focus {
   color: #fff;
 }
@@ -1309,11 +1289,7 @@ RESERVATION SECTION
   display: none;
 }
 
-
-
-/*==================
- CONTACT SECTION
-====================*/
+/* CONTACT SECTION */
 
 #gp-contact {
   background-color: #f8f8f8;
@@ -1395,7 +1371,7 @@ RESERVATION SECTION
   display: inline-block;
 }
 
-.gp-contact-right .gp-contact-widget > p {
+.gp-contact-right .gp-contact-widget>p {
   letter-spacing: 0.5px;
   line-height: 26px;
 }
@@ -1422,7 +1398,7 @@ RESERVATION SECTION
 
 #form-messages {
   margin-bottom: 10px;
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .success {
@@ -1433,8 +1409,8 @@ RESERVATION SECTION
   background-color: #dff0d8;
   border: 1px solid #d6e9c6;
   -webkit-border-radius: 4px;
-   -moz-border-radius: 4px;
-        border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 .error {
@@ -1445,13 +1421,11 @@ RESERVATION SECTION
   background-color: #f2dede;
   border: 1px solid rgba(185, 74, 72, 0.3);
   -webkit-border-radius: 4px;
-   -moz-border-radius: 4px;
-        border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
-/*==================
- MAP SECTION
-====================*/
+/* MAP SECTION */
 
 #gp-map {
   display: inline;
@@ -1465,9 +1439,7 @@ RESERVATION SECTION
   height: 100%;
 }
 
-/*==================
- FOOTER SECTION
-====================*/
+/* FOOTER SECTION */
 
 #gp-footer {
   background-color: var(--gp-main);
@@ -1530,9 +1502,7 @@ RESERVATION SECTION
   color: black;
 }
 
-/*==================
- RESPONSIVE DESIGN
-====================*/
+/* RESPONSIVE DESIGN */
 
 @media (max-width: 1199px) {
 
@@ -1570,29 +1540,28 @@ RESERVATION SECTION
   }
 
   .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-info {
-  padding-top: 26%;
+    padding-top: 26%;
   }
-
-  
 }
 
 
 @media (max-width: 991px) {
-
 
   /* .gp-main-navbar .gp-main-nav li a {
     padding-left: 5px;
     padding-right: 5px;
     font-size: 14px;
   } */
-  
+
   .column-footer {
     padding-top: 24px;
     border-bottom: 1px solid var(--gp-gray);
   }
+
   .column-footer:first-child {
     padding-top: 0px;
   }
+
   .column-footer:last-child {
     border-bottom: 0;
   }
@@ -1607,7 +1576,7 @@ RESERVATION SECTION
     display: inline;
     width: 100%;
   }
-  
+
   .gp-top-slider-content .gp-reservation-btn {
     display: none;
   }
@@ -1616,11 +1585,11 @@ RESERVATION SECTION
   .gp-reservation-form {
     text-align: center;
   }
-  
+
   .gp-reservation-right {
     margin-top: 60px;
   }
-  
+
   #gp-contact .gp-contact-area .gp-contact-content .gp-contact-right {
     margin-top: 50px;
     padding: 0;
@@ -1637,8 +1606,6 @@ RESERVATION SECTION
   #gp-client-testimonial .gp-client-testimonial-area .gp-testimonial-content .gp-testimonial-slider li .gp-testimonial-single .gp-testimonial-info p::before {
     top: 40%;
   }
-
-
 }
 
 
@@ -1653,7 +1620,7 @@ RESERVATION SECTION
     border: none;
   }
 
-  .navbar-default .navbar-toggle:hover, 
+  .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
     background-color: white;
   }
@@ -1663,8 +1630,8 @@ RESERVATION SECTION
     text-align: center;
   }
 
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
     background-color: #fff;
   }
 
@@ -1673,23 +1640,22 @@ RESERVATION SECTION
     margin-bottom: 10px;
     border-right: none;
   }
-   
 }
 
 
 @media (max-width: 640px) {
-  
-  .navbar-default .navbar-toggle:hover, 
+
+  .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
     background-color: white;
   }
-  
+
   #gp-slider .gp-slider-area .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-title {
     font-size: 50px;
     line-height: 75px;
   }
 
- .gp-top-slider .gp-top-slider-single .gp-top-slider-content {
+  .gp-top-slider .gp-top-slider-single .gp-top-slider-content {
     top: 18%;
   }
 
@@ -1719,7 +1685,7 @@ RESERVATION SECTION
 
   .gp-top-slider .slick-dots {
     display: none !important;
-  } 
+  }
 
   .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-small-title {
     font-size: 45px;
@@ -1737,24 +1703,22 @@ RESERVATION SECTION
     font-size: 30px;
     line-height: 50px;
   }
-
 }
 
 
 @media (max-width: 480px) {
 
   .gp-top-slider .gp-top-slider-single .gp-top-slider-content {
-   top: 20%;
+    top: 20%;
   }
 
   .gp-top-slider .gp-top-slider-single .gp-top-slider-content p {
     display: none;
   }
- 
+
   .gp-reservation-content p {
     padding: 0;
   }
-
 
   .gp-title {
     margin-bottom: 0;
@@ -1782,7 +1746,7 @@ RESERVATION SECTION
     width: 100%;
   }
 
-   #gp-gallery .gp-gallery-area .gp-gallery-content .gp-gallery-body .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-info {
+  #gp-gallery .gp-gallery-area .gp-gallery-content .gp-gallery-body .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-info {
     padding-top: 30%;
   }
 
@@ -1793,8 +1757,6 @@ RESERVATION SECTION
   #gp-restaurant-menu .gp-restaurant-menu-area .gp-restaurant-menu-content .gp-restaurant-menu li {
     margin-bottom: 10px;
   }
-  
-  
 }
 
 @media (max-width: 360px) {
@@ -1838,7 +1800,7 @@ RESERVATION SECTION
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   #gp-contact .gp-contact-area .gp-contact-content .gp-contact-right {
     text-align: center;
   }
@@ -1870,7 +1832,7 @@ RESERVATION SECTION
     float: left;
   }
 
-  #gp-restaurant-menu .gp-restaurant-menu-area .gp-restaurant-menu-content .gp-tab-content-area .gp-menu-item-nav li .media .media-left a{
+  #gp-restaurant-menu .gp-restaurant-menu-area .gp-restaurant-menu-content .gp-tab-content-area .gp-menu-item-nav li .media .media-left a {
     display: inline-block;
     margin-bottom: 10px;
   }
@@ -1886,7 +1848,6 @@ RESERVATION SECTION
   .gp-contact-form .gp-send-btn {
     width: 100%;
   }
-
 }
 
 
@@ -1895,8 +1856,6 @@ RESERVATION SECTION
   #gp-gallery .gp-gallery-area .gp-gallery-content .gp-gallery-body .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-info {
     padding-top: 25.5%;
   }
-
-  
 }
 
 @media (max-width: 767.99px) {
@@ -1904,15 +1863,18 @@ RESERVATION SECTION
   .navbar-item-md {
     display: block !important;
   }
+
   .navbar-item-lg {
     display: none !important;
   }
 }
+
 @media (min-width: 768px) {
 
   .navbar-item-lg {
     display: block !important;
   }
+
   .navbar-item-md {
     display: none !important;
   }

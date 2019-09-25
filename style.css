@@ -193,6 +193,7 @@ img {
 .gp-main-navbar .gp-main-nav li a.active {
   background-color: white;
   color: var(--gp-scnd);
+  cursor: default;
 }
 
 .gp-main-navbar .gp-main-nav .dropdown-menu {

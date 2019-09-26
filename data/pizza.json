@@ -1,8 +1,53 @@
 [
   {
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "nume": "Pizza Casei",
+    "info": "sos de roșii, mozzarella, bacon, ciuperci, măsline, parmezan",
+    "pret": "20"
+  }
+  ,{
+    "nume": "Prosciutto Crudo e Rucola",
+    "info": "rucola, roșii cherry, parmezan, prosciutto crudo",
+    "pret": "23"
+  }
+  ,{
+    "nume": "Margherita",
+    "info": "sos roșii, mozzarella, busuioc",
+    "pret": "15"
+  }
+  ,{
+    "nume": "Prosciutto Cotto",
+    "info": "sos roșii, mozzarella, șuncă",
+    "pret": "20"
+  }
+  ,{
+    "nume": "Prosciutto Cotto e Funghi",
+    "info": "sos roșii, mozzarella, șuncă, ciuperci",
+    "pret": "21"
+  }
+  ,{
+    "nume": "Quattro Stagioni",
+    "info": "sos roșii, mozzarella, șuncă, ciuperci, salam, ardei, măsline",
+    "pret": "21"
+  }
+  ,{
+    "nume": "Diavola",
+    "info": "sos roșii, mozzarella, salam ventricina",
+    "pret": "18"
+  }
+  ,{
+    "nume": "Quattro Formagi",
+    "info": "mozzarella, gorgonzola, brie, parmezan",
+    "pret": "22"
+  }
+  ,{
+    "nume": "Vegetariană",
+    "info": "sos roșii, mozzarella, ciuperci, ardei gras, roșii, ceapă, măsline, porumb",
     "pret": "19"
+  }
+  ,{
+    "nume": "Rustică",
+    "info": "sos roșii, mozzarella, bacon, cârnați, ceapă roșie, ardei gras, măsline, ciuperci, telemea",
+    "pret": "22"
   }
   ,{
     "nume": "Capriciosa",
@@ -10,43 +55,48 @@
     "pret": "19"
   }
   ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "nume": "Calzone",
+    "info": "sos roșii, mozzarella, ciuperci, șuncă, salam, măsline, ou",
     "pret": "19"
   }
   ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "nume": "Pollo",
+    "info": "sos roșii, mozzarella, piept de pui",
     "pret": "19"
   }
   ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "nume": "Pollo e Funghi",
+    "info": "sos roșii, mozzarella, piept de pui, ciuperci",
+    "pret": "20"
+  }
+  ,{
+    "nume": "Tonno",
+    "info": "sos roșii, ton, ceapă roșie, măsline",
+    "pret": "20"
+  }
+  ,{
+    "nume": "Carbonara",
+    "info": "grancucina, mozzarella, bacon, parmezan, ou",
     "pret": "19"
   }
   ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
-    "pret": "19"
+    "nume": "Salami",
+    "info": "sos roșii, mozzarella, salam",
+    "pret": "18"
   }
   ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
-    "pret": "19"
+    "nume": "Quattro Carni",
+    "info": "sos roșii, mozzarella, piept de pui, salam, cârnați, șuncă",
+    "pret": "20"
   }
   ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
-    "pret": "19"
+    "nume": "Garden",
+    "info": "grancucina, mozzarella, piept de pui, ardei gras, ciuperci, dovlecei, usturoi",
+    "pret": "22"
   }
   ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
-    "pret": "19"
-  }
-  ,{
-    "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
-    "pret": "19"
+    "nume": "Focaccia",
+    "info": "rozmarin, sare, piper, ulei de măsline",
+    "pret": "7"
   }
 ]

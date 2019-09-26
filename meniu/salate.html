@@ -54,21 +54,21 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right gp-main-nav">
-                        <li><a class="active">Pizza</a></li>
+                        <li><a  href="../meniu/pizza.html">Pizza</a></li>
 
                         <li class="navbar-item-lg">
                             <div class="gp-dropdown">
-                                <a href="../meniu.html" class="gp-dropbtn">Meniu</a>
+                                <a href="../meniu.html" class="gp-dropbtn active">Meniu</a>
                                 <div class="gp-dropdown-content">
                                     <a href="../meniu/piadine.html">Piadine</a>
-                                    <a href="../meniu/salate.html">Salate</a>
+                                    <a class="active">Salate</a>
                                     <a href="../meniu/paste.html">Paste</a>
                                     <a href="../meniu/platouri.html">Platouri</a>
                                 </div>
                             </div>
                         </li>
                         <li class="navbar-item-md"><a href="../meniu/piadine.html">Piadine</a></li>
-                        <li class="navbar-item-md"><a href="../meniu/salate.html">Salate</a></li>
+                        <li class="navbar-item-md"><a class="active">Salate</a></li>
                         <li class="navbar-item-md"><a href="../meniu/paste.html">Paste</a></li>
                         <li class="navbar-item-md"><a href="../meniu/platouri.html">Platouri</a></li>
 
@@ -87,7 +87,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div id="PizzaHTML"></div>
+                        <div id="SalateHTML"></div>
                     </div>
                 </div>
             </div>
@@ -157,10 +157,10 @@
     <script src="../assets/js/custom.js"></script>
 
     <script>
-        $.getJSON("../data/pizza.json", function (data) {
+        $.getJSON("../data/salate.json", function (data) {
             var html = '';
             html += '<div class="gp-menu-title">';
-            html += '<hr class="hr-text" data-content="Pizza">';
+            html += '<hr class="hr-text" data-content="Salate">';
             html += '</div>';
             $.each(data, function (index, value) {
                 html += '<div class="row gp-menu-row">';
@@ -174,7 +174,7 @@
                 html += ' </div>';
                 html += '</div>';
             });
-            $('#PizzaHTML').html(html);
+            $('#SalateHTML').html(html);
         });
     </script>
 </body>

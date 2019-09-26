@@ -1,0 +1,42 @@
+[
+  {
+    "nume": "Spaghete Carbonara",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "22"
+  }
+  ,{
+    "nume": "Penne Amatriciana",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "22"
+  }
+  ,{
+    "nume": "Penne Alla Gricia",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "22"
+  }
+  ,{
+    "nume": "Tagliatele Ragu",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "22"
+  }
+  ,{
+    "nume": "Spaghetti Neri con Tonno",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "25"
+  }
+  ,{
+    "nume": "Soute di Cozze",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "30"
+  }
+  ,{
+    "nume": "Paste Quattro Formaggi",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "25"
+  }
+  ,{
+    "nume": "Spaghetti Mare e Monti",
+    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "pret": "32"
+  }
+]

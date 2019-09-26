@@ -1,0 +1,22 @@
+[
+  {
+    "nume": "Greca",
+    "info": "castraveți proaspeți, roșii proaspete, brânză, măsline, ceapă, ou, dressing",
+    "pret": "22"
+  }
+  ,{
+    "nume": "Caesar",
+    "info": "mix salate, piept de pui grillat, crutoane, dressing de iaurt, parmezan, lămâie",
+    "pret": "22"
+  }
+  ,{
+    "nume": "Di Tonno",
+    "info": "iceberg, ton, roșii cherry, măsline, porumb, lămâie",
+    "pret": "23"
+  }
+  ,{
+    "nume": "Garden",
+    "info": "rucola, prosciutto crudo, parmezan, roșii cherry, crutoane, dressing, oțet balsamic",
+    "pret": "24"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "nume": "Garden",
+    "info": "abc, abcdef, abc, abcdefghi, abc, abcdefghijkl, abc",
+    "pret": "21"
+  }
+  ,{
+    "nume": "Pizza",
+    "info": "abc, abcdef, abc, abcdefghi, abc, abcdefghijkl, abc",
+    "pret": "22"
+  }
+]

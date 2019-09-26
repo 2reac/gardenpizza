@@ -1,0 +1,27 @@
+[
+  {
+    "nume": "Salami",
+    "info": "salam, mozzarella, salată, maioneză",
+    "pret": "11"
+  }
+  ,{
+    "nume": "Prosciutto",
+    "info": "șuncă, mozzarella, roșii, maioneză",
+    "pret": "11"
+  }
+  ,{
+    "nume": "Prosciutto e Salami",
+    "info": "șuncă, salam, mozzarella, maioneză",
+    "pret": "11"
+  }
+  ,{
+    "nume": "Bacon",
+    "info": "bacon, salată, cremă de brânză",
+    "pret": "11"
+  }
+  ,{
+    "nume": "Pollo",
+    "info": "salată, piept de pui, castraveți proaspeți, roșii, măsline",
+    "pret": "17"
+  }
+]

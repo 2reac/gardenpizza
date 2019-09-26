@@ -52,15 +52,6 @@ a:focus {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
-}
-
 img {
   border: none;
   max-width: 100%;

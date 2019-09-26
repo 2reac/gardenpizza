@@ -1,6 +1,7 @@
 var a = 0;
 $(window).scroll(function() {
 
+  if($('.gp-counter-nav').offset()){
   var oTop = $('.gp-counter-nav').offset().top - window.innerHeight;
   if (a == 0 && $(window).scrollTop() > oTop) {
     $('.counter-value').each(function() {
@@ -28,5 +29,6 @@ $(window).scroll(function() {
     });
     a = 1;
   }
+}
 
 });

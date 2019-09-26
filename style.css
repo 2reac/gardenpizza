@@ -57,6 +57,10 @@ img {
   max-width: 100%;
 }
 
+.main-wrapper {
+  margin-top: 90px;
+}
+
 .gp-readmore-btn {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;

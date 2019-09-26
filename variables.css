@@ -3,5 +3,6 @@
   --gp-scnd: #36c76c;
   --gp-thrd: #53c7ec;
   --gp-gray: #32363a;
-  --gp-white: #dadada;
+  --gp-white-da: #dadada;
+  --gp-white-gr: linear-gradient(90deg, #dbdbdb, #eaeaea, #dbdbdb);
 }

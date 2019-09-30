@@ -537,7 +537,7 @@ img {
 
 #gp-counter {
   background-attachment: fixed;
-  background-image: url("assets/img/counter-bg.jpeg");
+  background-image: url("assets/img/counter-bg.jpg");
   background-size: cover;
   display: inline;
   float: left;
@@ -545,7 +545,7 @@ img {
 }
 
 .gp-counter-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.75);
   display: inline;
   padding: 100px 0;
   float: left;
@@ -556,6 +556,15 @@ img {
   display: inline;
   float: left;
   width: 100%;
+}
+
+.gp-counter-nav {
+  line-height: 80px;
+  text-align: center;
+  font-family: 'Tangerine';
+  font-size: 80px;
+  font-style: italic;
+  color: white;
 }
 
 .gp-counter-nav {
@@ -1972,6 +1981,10 @@ img {
     display: block !important;
   }
 
+  .footer-item-md {
+    display: none !important;
+  }
+
   .navbar-item-lg {
     display: none !important;
   }
@@ -1985,5 +1998,9 @@ img {
 
   .navbar-item-md {
     display: none !important;
+  }
+
+  .footer-item-md {
+    display: block !important;
   }
 }

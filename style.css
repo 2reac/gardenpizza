@@ -1554,7 +1554,9 @@ img {
 }
 
 .gp-footer-end {
-  border-top: 1px solid var(--gp-gray);
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-image: linear-gradient(90deg, transparent, var(--gp-gray), transparent) 100% 0% 0% 0%;
   align-items: center;
   display: flex;
 }
@@ -1651,7 +1653,9 @@ img {
 
   .column-footer {
     padding-top: 24px;
-    border-bottom: 1px solid var(--gp-gray);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(90deg, transparent, var(--gp-gray), transparent) 0% 0% 100% 0%;
   }
 
   .column-footer:first-child {

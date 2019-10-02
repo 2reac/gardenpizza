@@ -2019,3 +2019,132 @@ img {
     display: block !important;
   }
 }
+
+/* LEFT - IMAGE - RIGHT */
+
+section.cook-delecious {
+  padding: 100px 0px;
+}
+
+.cook-delecious .first-image {
+  margin-right: -30px;
+  margin-top: 7.5%;
+}
+
+.cook-delecious .first-image img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.cook-delecious .second-image {
+  margin-left: -30px;
+  margin-top: 7.5%;
+}
+
+.cook-delecious .second-image img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.cook-delecious .cook-content {
+  background-color: var(--gp-main);
+  border-radius: 16px;
+  text-align: center;
+  padding: 30px;
+}
+
+.cook-delecious .cook-content h4 {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.cook-content .contact-content {
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 20px 30px;
+}
+
+.cook-content .contact-content span {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cook-content .contact-content h6 {
+  color: white;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.cook-content span {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid var(--gp-scnd);
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  line-height: 25px;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .cook-delecious .first-image {
+    margin-right: 0px;
+    margin-top: 0%;
+    padding: 0px 10%;
+  }
+
+  .cook-delecious .second-image {
+    margin-left: 0px;
+    margin-top: 0%;
+    padding: 0px 10%;
+  }
+
+  .cook-delecious .first-image img {
+    border-radius: 16px 16px 0px 0px;
+  }
+  
+  .cook-delecious .second-image img {
+    border-radius: 0px 0px 16px 16px;
+  }
+
+  .cook-content .contact-content h6 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cook-delecious .first-image {
+    margin-right: 0px;
+    margin-top: 0%;
+    padding: 0px 10%;
+  }
+
+  .cook-delecious .second-image {
+    margin-left: 0px;
+    margin-top: 0%;
+    padding: 0px 10%;
+  }
+
+  .cook-content .contact-content h6 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+}

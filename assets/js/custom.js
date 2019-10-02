@@ -229,6 +229,19 @@ jQuery(function($){
               window.location.hash = target;
       });
   });
+
+  /* ----------------------------------------------------------- */
+  /*  11. MOBILE DEVICE PHONE NUMBER SWITCH
+  /* ----------------------------------------------------------- */
+  
+  jQuery('#mobile-call').click(function(){
+    $(".gp-switch").hide();
+    $(".gp-switch-tel").show();
+  });
+  jQuery('#mobile-menu').click(function(){
+    $(".gp-switch-tel").hide();
+    $(".gp-switch").show();
+  });
   
 });
 

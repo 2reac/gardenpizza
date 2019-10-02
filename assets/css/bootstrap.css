@@ -3979,7 +3979,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav > li {
   position: relative;
-  display: block;
+  /* display: block; */
 }
 
 .nav > li > a, .gp-dropdown .gp-dropbtn {
@@ -4524,8 +4524,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: var(--gp-scnd);
   background-color: white;
 }
-.navbar-default .navbar-nav > li a:hover,
-.navbar-default .navbar-nav > li a:focus {
+.navbar-default .navbar-nav > li a:hover {
   color: var(--gp-scnd);
   background-color: white;
 }

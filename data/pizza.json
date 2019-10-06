@@ -6,37 +6,37 @@
   }
   ,{
     "nume": "Pizza Casei",
-    "info": "sos de roșii, mozzarella, bacon, ciuperci, măsline, parmezan",
+    "info": "sos de ro&#351;ii, mozzarella, bacon, ciuperci, m&#259;sline, parmezan",
     "pret": "20"
   }
   ,{
     "nume": "Prosciutto Crudo e Rucola",
-    "info": "rucola, roșii cherry, parmezan, prosciutto crudo",
+    "info": "rucola, ro&#351;ii cherry, parmezan, prosciutto crudo",
     "pret": "23"
   }
   ,{
     "nume": "Margherita",
-    "info": "sos roșii, mozzarella, busuioc",
+    "info": "sos ro&#351;ii, mozzarella, busuioc",
     "pret": "15"
   }
   ,{
     "nume": "Prosciutto Cotto",
-    "info": "sos roșii, mozzarella, șuncă",
+    "info": "sos ro&#351;ii, mozzarella, &#351;unc&#259;",
     "pret": "20"
   }
   ,{
     "nume": "Prosciutto Cotto e Funghi",
-    "info": "sos roșii, mozzarella, șuncă, ciuperci",
+    "info": "sos ro&#351;ii, mozzarella, &#351;unc&#259;, ciuperci",
     "pret": "21"
   }
   ,{
     "nume": "Quattro Stagioni",
-    "info": "sos roșii, mozzarella, șuncă, ciuperci, salam, ardei, măsline",
+    "info": "sos ro&#351;ii, mozzarella, &#351;unc&#259;, ciuperci, salam, ardei, m&#259;sline",
     "pret": "21"
   }
   ,{
     "nume": "Diavola",
-    "info": "sos roșii, mozzarella, salam ventricina",
+    "info": "sos ro&#351;ii, mozzarella, salam ventricina",
     "pret": "18"
   }
   ,{
@@ -45,38 +45,38 @@
     "pret": "22"
   }
   ,{
-    "nume": "Vegetariană",
-    "info": "sos roșii, mozzarella, ciuperci, ardei gras, roșii, ceapă, măsline, porumb",
+    "nume": "Vegetarian&#259;",
+    "info": "sos ro&#351;ii, mozzarella, ciuperci, ardei gras, ro&#351;ii, ceap&#259;, m&#259;sline, porumb",
     "pret": "19"
   }
   ,{
-    "nume": "Rustică",
-    "info": "sos roșii, mozzarella, bacon, cârnați, ceapă roșie, ardei gras, măsline, ciuperci, telemea",
+    "nume": "Rustic&#259;",
+    "info": "sos ro&#351;ii, mozzarella, bacon, c&#226;rna&#355;i, ceap&#259; ro&#351;ie, ardei gras, m&#259;sline, ciuperci, telemea",
     "pret": "22"
   }
   ,{
     "nume": "Capriciosa",
-    "info": "sos roșii, șuncă, mozzarella, ciuperci, ardei gras, măsline, ou",
+    "info": "sos ro&#351;ii, &#351;unc&#259;, mozzarella, ciuperci, ardei gras, m&#259;sline, ou",
     "pret": "19"
   }
   ,{
     "nume": "Calzone",
-    "info": "sos roșii, mozzarella, ciuperci, șuncă, salam, măsline, ou",
+    "info": "sos ro&#351;ii, mozzarella, ciuperci, &#351;unc&#259;, salam, m&#259;sline, ou",
     "pret": "19"
   }
   ,{
     "nume": "Pollo",
-    "info": "sos roșii, mozzarella, piept de pui",
+    "info": "sos ro&#351;ii, mozzarella, piept de pui",
     "pret": "19"
   }
   ,{
     "nume": "Pollo e Funghi",
-    "info": "sos roșii, mozzarella, piept de pui, ciuperci",
+    "info": "sos ro&#351;ii, mozzarella, piept de pui, ciuperci",
     "pret": "20"
   }
   ,{
     "nume": "Tonno",
-    "info": "sos roșii, ton, ceapă roșie, măsline",
+    "info": "sos ro&#351;ii, ton, ceap&#259; ro&#351;ie, m&#259;sline",
     "pret": "20"
   }
   ,{
@@ -86,17 +86,17 @@
   }
   ,{
     "nume": "Salami",
-    "info": "sos roșii, mozzarella, salam",
+    "info": "sos ro&#351;ii, mozzarella, salam",
     "pret": "18"
   }
   ,{
     "nume": "Quattro Carni",
-    "info": "sos roșii, mozzarella, piept de pui, salam, cârnați, șuncă",
+    "info": "sos ro&#351;ii, mozzarella, piept de pui, salam, c&#226;rna&#355;i, &#351;unc&#259;",
     "pret": "20"
   }
   ,{
     "nume": "Focaccia",
-    "info": "rozmarin, sare, piper, ulei de măsline",
+    "info": "rozmarin, sare, piper, ulei de m&#259;sline",
     "pret": "7"
   }
 ]

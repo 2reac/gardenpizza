@@ -1,5 +1,10 @@
 [
   {
+    "nume": "Garden",
+    "info": "grancucina, mozzarella, piept de pui, ardei gras, ciuperci, dovlecei, usturoi",
+    "pret": "22"
+  }
+  ,{
     "nume": "Pizza Casei",
     "info": "sos de roșii, mozzarella, bacon, ciuperci, măsline, parmezan",
     "pret": "20"
@@ -88,11 +93,6 @@
     "nume": "Quattro Carni",
     "info": "sos roșii, mozzarella, piept de pui, salam, cârnați, șuncă",
     "pret": "20"
-  }
-  ,{
-    "nume": "Garden",
-    "info": "grancucina, mozzarella, piept de pui, ardei gras, ciuperci, dovlecei, usturoi",
-    "pret": "22"
   }
   ,{
     "nume": "Focaccia",

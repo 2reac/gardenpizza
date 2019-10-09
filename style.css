@@ -524,24 +524,9 @@ img {
 
 .gp-about-us-left {
   position: relative;
-  height: 337.5px;
   display: inline;
   float: left;
   width: 100%;
-}
-
-.gp-about-us-left img {
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
-  height: 337.5px;
-}
-
-.gp-about-us-left img.top:hover {
-  opacity: 0;
 }
 
 .gp-title {

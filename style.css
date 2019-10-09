@@ -500,8 +500,8 @@ img {
 .gp-about-us-right {
   display: inline;
   float: left;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   padding: 0 30px;
   width: 100%;
 }
@@ -533,10 +533,11 @@ img {
 .gp-about-us-left img {
   position: absolute;
   left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 0.75s ease-in-out;
+  -moz-transition: opacity 0.75s ease-in-out;
+  -o-transition: opacity 0.75s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
+  border-radius: 16px;
 }
 
 .gp-about-us-left img.transparent {
@@ -1949,7 +1950,7 @@ img {
   }
 
   #gp-about-us {
-    padding: 100px 0 50px;
+    padding: 75px 0 50px;
   }
 
   #gp-restaurant-menu {
@@ -2386,7 +2387,7 @@ section#cook-delecious {
   color: var(--gp-scnd);
 }
 
-@media(max-width:640px) {
+@media(max-width: 640px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
     font-size: 16px;
     margin: 0 3px;
@@ -2397,7 +2398,7 @@ section#cook-delecious {
   }
 }
 
-@media(max-width:480px) {
+@media(max-width: 480px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
     margin: 0 2px;
   }
@@ -2425,7 +2426,7 @@ section#cook-delecious {
   }
 }
 
-@media(max-width:360px) {
+@media(max-width: 360px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
     margin-bottom: 12px;
   }
@@ -2461,7 +2462,7 @@ section#cook-delecious {
   }
 }
 
-@media(max-width:767px) {
+@media(max-width: 767px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
     border-radius: 16px 16px 16px 16px;
     border-color: var(--gp-scnd) !important;
@@ -2469,5 +2470,154 @@ section#cook-delecious {
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
     border-bottom: 0px;
+  }
+}
+
+/* ABOUT US left & right */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .gp-about-us-left {
+    height: 282px;
+  }
+
+  .gp-about-us-right {
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 991.98px) {
+  .gp-about-us-left {
+    height: 543px;
+  }
+
+  .gp-about-us-right {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 710px) and (max-width: 739.98px) {
+  .gp-about-us-left {
+    height: 523px;
+  }
+
+  .gp-about-us-right {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 709.98px) {
+  .gp-about-us-left {
+    height: 503px;
+  }
+
+  .gp-about-us-right {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 679.98px) {
+  .gp-about-us-left {
+    height: 483px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 639.98px) {
+  .gp-about-us-left {
+    height: 453px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 599.98px) {
+  .gp-about-us-left {
+    height: 423px;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 559.98px) {
+  .gp-about-us-left {
+    height: 393px;
+  }
+}
+
+@media (min-width: 490px) and (max-width: 519.98px) {
+  .gp-about-us-left {
+    height: 363px;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 489.98px) {
+  .gp-about-us-left {
+    height: 343px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 474.98px) {
+  .gp-about-us-left {
+    height: 333px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 459.98px) {
+  .gp-about-us-left {
+    height: 323px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 449.98px) {
+  .gp-about-us-left {
+    height: 314px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 439.98px) {
+  .gp-about-us-left {
+    height: 306px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 429.98px) {
+  .gp-about-us-left {
+    height: 297px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 419.98px) {
+  .gp-about-us-left {
+    height: 284px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 399.98px) {
+  .gp-about-us-left {
+    height: 271px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 379.98px) {
+  .gp-about-us-left {
+    height: 258px;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 359.98px) {
+  .gp-about-us-left {
+    height: 245px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 339.98px) {
+  .gp-about-us-left {
+    height: 232px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 679.98px) {
+  .gp-about-us-right {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }

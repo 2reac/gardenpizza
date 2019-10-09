@@ -52,6 +52,14 @@ a:focus {
   text-decoration: none;
 }
 
+a.gp-shadow:hover {
+  text-shadow: 1px 2px 3px var(--gp-scnd);
+}
+
+a.gp-hover:hover {
+  color: var(--gp-scnd);
+}
+
 img {
   border: none;
   max-width: 100%;
@@ -266,10 +274,12 @@ img {
   text-decoration: none;
   display: block;
   text-align: left;
+  /* box-shadow: 0px 2.5px 5px 0px white; */
 }
 
 .gp-dropdown-content a:hover {
   background-color: #ddd;
+  /* box-shadow: 0px 2.5px 5px 0px var(--gp-main); */
 }
 
 .gp-dropdown:hover .gp-dropdown-content {
@@ -491,8 +501,8 @@ img {
   display: inline;
   float: left;
   margin-top: 20px;
-  padding-top: 30px;
-  padding-left: 15px;
+  margin-bottom: 20px;
+  padding: 30px;
   width: 100%;
 }
 
@@ -513,12 +523,24 @@ img {
 }
 
 .gp-about-us-left {
+  position: relative;
+  height: 337.5px;
   display: inline;
   float: left;
-  margin-top: 20px;
-  padding-top: 30px;
-  padding-right: 15px;
   width: 100%;
+}
+
+.gp-about-us-left img {
+  position: absolute;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  height: 337.5px;
+}
+
+.gp-about-us-left img.top:hover {
+  opacity: 0;
 }
 
 .gp-title {
@@ -545,7 +567,7 @@ img {
 
 #gp-counter {
   background-attachment: fixed;
-  background-image: url("assets/img/counter-bg.jpg");
+  background-image: url('assets/img/counter-bg.jpg');
   background-size: cover;
   display: inline;
   float: left;
@@ -553,7 +575,8 @@ img {
 }
 
 .gp-counter-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 40px 20px var(--gp-gray);
   display: inline;
   padding: 100px 0;
   float: left;
@@ -754,11 +777,6 @@ img {
 .gp-menu-item-nav li .media .media-body p {
   margin-top: 10px;
   font-size: 14px;
-}
-
-.gp-menu-row>.col.gp-menu-more {
-  padding: 32px;
-  text-align: center;
 }
 
 /* RESERVATION SECTION */
@@ -979,7 +997,6 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  margin-top: 50px;
 }
 
 .gp-single-gallery {
@@ -1041,7 +1058,7 @@ img {
 /* TESTIMONIAL SECTION */
 
 #gp-client-testimonial {
-  background-image: url("assets/img/testimonial-bg.jpg");
+  background-image: url('assets/img/testimonial-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   display: inline;
@@ -1458,6 +1475,14 @@ img {
 
 /* MENU */
 
+.gp-menu-row:hover {
+  text-shadow: 3px 3px 5px var(--gp-scnd);
+}
+
+.gp-menu-row:hover .gp-menu-more a {
+  text-shadow: initial;
+}
+
 .gp-menu-row>.col {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -1468,6 +1493,12 @@ img {
   padding: 12px;
   background-color: var(--gp-main);
   font-size: 30px;
+  box-shadow: 0px 2.5px 5px 0px var(--gp-gray);
+}
+
+.gp-menu-row>.col.gp-menu-more {
+  padding: 40px;
+  text-align: center;
 }
 
 .gp-menu-title {
@@ -1880,6 +1911,10 @@ img {
     width: auto;
   }
 
+  #gp-gallery {
+    padding: 0;
+  }
+
   #gp-gallery .gp-gallery-area .gp-gallery-content .gp-gallery-body .gp-single-gallery {
     width: 100%;
   }
@@ -2045,6 +2080,9 @@ img {
 }
 
 section#cook-delecious {
+  background-image: url('assets/img/wood01.jpg');
+  box-shadow: 0px 5px 30px 20px var(--gp-gray);
+  background-size: cover;
   background-color: white;
   display: inline;
   float: left;

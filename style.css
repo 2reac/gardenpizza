@@ -1025,6 +1025,7 @@ img {
 }
 
 .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-img {
+  border-radius: 16px;
   display: inline;
   float: left;
   overflow: hidden;
@@ -1032,7 +1033,6 @@ img {
 }
 
 .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-img img {
-
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   -ms-transition: all 0.8s;
@@ -1055,6 +1055,7 @@ img {
   -ms-transition: all 0.8s;
   -o-transition: all 0.8s;
   transition: all 0.8s;
+  border-radius: 16px;
 }
 
 /* TESTIMONIAL SECTION */
@@ -1914,7 +1915,7 @@ img {
   }
 
   #gp-gallery {
-    padding: 0;
+    padding: 25px 0;
   }
 
   #gp-gallery .gp-gallery-area .gp-gallery-content .gp-gallery-body .gp-single-gallery {

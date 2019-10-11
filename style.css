@@ -1667,7 +1667,7 @@ img {
 
 /* RESPONSIVE DESIGN */
 
-@media (max-width: 1199px) {
+@media (max-width: 1199.98px) {
 
   .gp-main-navbar .gp-main-nav li a {
     padding-left: 10px;
@@ -1708,7 +1708,7 @@ img {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
 
   /* .gp-main-navbar .gp-main-nav li a {
     padding-left: 5px;
@@ -1774,7 +1774,7 @@ img {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
 
   #gp-header {
     padding: 0 15px;
@@ -1816,7 +1816,7 @@ img {
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 639.98px) {
 
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
@@ -1879,7 +1879,7 @@ img {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 479.98px) {
 
   .gp-top-slider .gp-top-slider-single .gp-top-slider-content {
     top: 20%;
@@ -1936,7 +1936,7 @@ img {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359.98px) {
 
   #gp-slider .gp-slider-area .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-title {
     font-size: 22px;
@@ -2028,7 +2028,7 @@ img {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 319.98px) {
 
   #gp-gallery .gp-gallery-area .gp-gallery-content .gp-gallery-body .gp-single-gallery .gp-single-gallery-item .gp-single-gallery-info {
     padding-top: 25.5%;
@@ -2169,7 +2169,7 @@ section#cook-delecious {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
   .cook-delecious .first-image {
     margin-right: 0px;
     margin-top: 0%;
@@ -2196,7 +2196,7 @@ section#cook-delecious {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .cook-delecious .first-image {
     margin-right: 0px;
     margin-top: 0%;
@@ -2210,7 +2210,7 @@ section#cook-delecious {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 424.98px) {
 
   section#cook-delecious .cook-content,
   section#cook-delecious .first-image,
@@ -2220,7 +2220,7 @@ section#cook-delecious {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359.98px) {
   .cook-content h6 a {
     padding: 12px 16px;
     font-size: 16px;
@@ -2390,38 +2390,62 @@ section#cook-delecious {
   color: var(--gp-scnd);
 }
 
-@media(max-width: 640px) {
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
-    font-size: 16px;
-    margin: 0 3px;
-  }
-
-  .gp-menu-row>.gp-menu-more>span {
-    font-size: 24px;
-  }
-}
-
-@media(max-width: 480px) {
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
-    margin: 0 2px;
-  }
-
+@media(max-width: 767.98px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
     margin-bottom: 10px;
   }
 
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+    border-radius: 16px 16px 16px 16px;
+    border-color: var(--gp-scnd) !important;
+  }
+
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
-    padding-left: 75px;
-    padding-right: 75px;
+    border-bottom: 0px;
     white-space: normal;
   }
 }
 
-@media (max-width: 420px) {
+@media(max-width: 684.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media(max-width: 639.98px) {
+  .gp-menu-row>.gp-menu-more>span {
+    font-size: 24px;
+  }
+
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+    font-size: 16px;
+    margin: 0 3px;
+  }
+}
+
+@media(max-width: 589.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+
+@media(max-width: 479.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+    margin: 0 2px;
+  }
+}
+
+@media (max-width: 419.98px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
     padding-left: 50px;
     padding-right: 50px;
-    white-space: normal;
   }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
@@ -2429,7 +2453,7 @@ section#cook-delecious {
   }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 359.98px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
     margin-bottom: 12px;
   }
@@ -2453,26 +2477,13 @@ section#cook-delecious {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
     padding-left: 32px;
     padding-right: 32px;
-    white-space: normal;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 319.98px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
     padding-left: 0px;
     padding-right: 0px;
-    white-space: normal;
-  }
-}
-
-@media(max-width: 767px) {
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
-    border-radius: 16px 16px 16px 16px;
-    border-color: var(--gp-scnd) !important;
-  }
-
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
-    border-bottom: 0px;
   }
 }
 

@@ -19,6 +19,7 @@
 @import "variables.css";
 
 body {
+  background-image: url('assets/img/pattern.jpg');
   background-color: var(--gp-white-da);
   font-family: "Cabin", "Open Sans";
   color: var(--gp-gray);
@@ -1546,7 +1547,7 @@ img {
 
 .gp-menu-info {
   font-style: italic;
-  opacity: 0.5;
+  opacity: 0.75;
   margin-bottom: 0px;
 }
 

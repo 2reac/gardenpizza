@@ -4,5 +4,5 @@
   --gp-thrd: #53c7ec;
   --gp-gray: #32363a;
   --gp-white-da: #dadada;
-  --gp-white-gr: linear-gradient(90deg, #dbdbdb, #eaeaea, #dbdbdb);
+  --gp-white-gr: linear-gradient(90deg, transparent, #eaeaea, transparent);
 }

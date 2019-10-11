@@ -1,12 +1,65 @@
 [
   {
-    "nume": "Garden",
-    "info": "abc, abcdef, abc, abcdefghi, abc, abcdefghijkl, abc",
-    "pret": "21"
+    "nume": "Mix Grill - 1850g",
+    "info": [
+      "cotlet de porc &nbsp; 250g",
+      "piept de pui &nbsp; 250g",
+      "mici (6 buc) &nbsp; 450g-500g",
+      "c&#226;rn&#259;ciori &nbsp; 300g",
+      "cartofi &#355;&#259;r&#259;ne&#351;ti &nbsp; 350g",
+      "mur&#259;turi &nbsp; 200g",
+      "turti&#355;e"
+    ],
+    "pret": "75"
   }
   ,{
-    "nume": "Pizza",
-    "info": "abc, abcdef, abc, abcdefghi, abc, abcdefghijkl, abc",
-    "pret": "22"
+    "nume": "Aperitiv - 900g",
+    "info": [
+      "salam uscat 80g",
+      "&#351;unc&#259; presat&#259; 80g",
+      "bacon 80g",
+      "ca&#351;caval 100g",
+      "telemea 100g",
+      "ro&#351;ii 1500g",
+      "castrave&#355;i 150g",
+      "m&#259;sline 60g",
+      "ceap&#259; ro&#351;ie 100g"
+    ],
+    "pret": "38"
+  }
+  ,{
+    "nume": "Porc - 2150g",
+    "info": [
+      "frig&#259;rui porc 250g",
+      "ceaf&#259; porc 350g",
+      "c&#226;rn&#259;ciori 300g",
+      "cotlet porc 350g",
+      "crochete ca&#351;caval 200g",
+      "cartofi &#355;&#259;r&#259;ne&#351;ti 500g",
+      "mur&#259;turi asortate 200g",
+      "p&#226;inici (turte)"
+    ],
+    "pret": "98"
+  }
+  ,{
+    "nume": "Pui - 2200g",
+    "info": [
+      "piept de pui la gr&#259;tar 400g",
+      "pulpe dezosate la gr&#259;tar 400g",
+      "pui shanghai 300g",
+      "aripioare de pui 250g",
+      "crochete ca&#351;caval 250g",
+      "cartofi pr&#259;ji&#355;i 400g",
+      "mur&#259;turi asortate 200g",
+      "p&#226;inici"
+    ],
+    "pret": "88"
+  }
+  ,{
+    "nume": "Garden",
+    "info": [
+      "ciuperci cu gorgonzola, grisine cu prosciutto, ro&#351;ii cherry, m&#259;sline, crochete ca&#351;caval, bruschete ton"
+    ],
+    "pret": "xx"
   }
 ]

@@ -104,7 +104,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div id="PlatouriHTML"></div>
+                        <div id="DesertHTML"></div>
                     </div>
                 </div>
             </div>
@@ -181,26 +181,29 @@
     <script src="../assets/js/custom.js"></script>
 
     <script>
-        $.getJSON("../data/platouri.json", function (data) {
+        $.getJSON("../data/desert.json", function (data) {
             var html = '';
             html += '<div class="gp-menu-title">';
-            html += '<hr class="hr-text" data-content="Platouri">';
+            html += '<hr class="hr-text" data-content="Desert">';
             html += '</div>';
             $.each(data, function (index, value) {
                 html += '<div class="row gp-menu-row">';
                 html += ' <div class="col col-xs-9">';
                 html += '  <h2 class="gp-menu-name">' + value.nume + '</h2>';
-                $.each(value.info, function (pos, vector) {
-                    html += ' <p class="gp-menu-info">' + vector + '</p>';
-                });
+                var price;
+                if (value.info) {
+                    html += '  <p class="gp-menu-info">' + value.info + '</p>';
+                    price = '  <h2 class="gp-menu-price"><span class="gp-price">';
+                } else {
+                    price = '  <h2 class="gp-menu-price" style="margin: 0px;"><span class="gp-price">';
+                }
                 html += ' </div>';
                 html += ' <div class="col col-xs-3">';
-                html += '  <h2 class="gp-menu-price"><span class="gp-price">' + value.pret +
-                    ' lei</span></h2>';
+                html += price + value.pret + ' lei</span></h2>';
                 html += ' </div>';
                 html += '</div>';
             });
-            $('#PlatouriHTML').html(html);
+            $('#DesertHTML').html(html);
         });
     </script>
 </body>

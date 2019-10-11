@@ -363,7 +363,7 @@ img {
 }
 
 .gp-top-slider .gp-top-slider-single:after {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   content: "";
   left: 0;

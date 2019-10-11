@@ -1815,7 +1815,6 @@ img {
   }
 }
 
-
 @media (max-width: 639.98px) {
 
   .navbar-default .navbar-toggle:hover,
@@ -1878,7 +1877,6 @@ img {
   }
 }
 
-
 @media (max-width: 479.98px) {
 
   .gp-top-slider .gp-top-slider-single .gp-top-slider-content {
@@ -1933,6 +1931,12 @@ img {
 
   #gp-restaurant-menu .gp-restaurant-menu-area .gp-restaurant-menu-content .gp-restaurant-menu li {
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 379.98px) {
+  .gp-counter-nav {
+    font-size: 64px;
   }
 }
 
@@ -2026,7 +2030,6 @@ img {
     width: 100%;
   }
 }
-
 
 @media (max-width: 319.98px) {
 
@@ -2406,39 +2409,26 @@ section#cook-delecious {
   }
 }
 
-@media(max-width: 684.98px) {
+@media(max-width: 689.98px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
     padding-left: 100px;
     padding-right: 100px;
   }
 }
 
-@media(max-width: 639.98px) {
+@media(max-width: 575.98px) {
   .gp-menu-row>.gp-menu-more>span {
     font-size: 24px;
-  }
-
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
-    padding-left: 100px;
-    padding-right: 100px;
   }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
     font-size: 16px;
     margin: 0 3px;
   }
-}
 
-@media(max-width: 589.98px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
-    padding-left: 75px;
-    padding-right: 75px;
-  }
-}
-
-@media(max-width: 479.98px) {
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
-    margin: 0 2px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
@@ -2449,19 +2439,47 @@ section#cook-delecious {
   }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+    margin: 0 2px;
     font-size: 14px;
   }
 }
 
+@media (max-width: 389.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media (max-width: 383.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 61px;
+    padding-right: 61px;
+  }
+}
+
+@media (max-width: 376.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+}
+
+@media (max-width: 371.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+@media (max-width: 364.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+}
+
 @media(max-width: 359.98px) {
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
-    margin-bottom: 12px;
-  }
-
-  #mu-restaurant-menu {
-    padding-bottom: 0px;
-  }
-
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
     height: 100px;
     width: 100px;
@@ -2474,6 +2492,55 @@ section#cook-delecious {
     width: 100%;
   }
 
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+}
+
+@media (max-width: 354.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}
+
+@media (max-width: 349.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media (max-width: 344.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 43px;
+    padding-right: 43px;
+  }
+}
+
+@media (max-width: 339.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 334.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+}
+
+@media (max-width: 329.98px) {
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+}
+
+@media (max-width: 324.98px) {
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
     padding-left: 32px;
     padding-right: 32px;

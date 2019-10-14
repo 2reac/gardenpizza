@@ -1480,7 +1480,7 @@ img {
 /* MENU */
 
 .gp-menu-row:hover {
-  text-shadow: 3px 3px 5px var(--gp-scnd);
+  text-shadow: 3px 3px 4px var(--gp-scnd);
 }
 
 .gp-menu-row:hover .gp-menu-more a {
@@ -1497,7 +1497,7 @@ img {
   padding: 12px;
   background-color: var(--gp-main);
   font-size: 30px;
-  box-shadow: 0px 2.5px 5px 0px var(--gp-gray);
+  box-shadow: 0px 2.5px 4px 0px var(--gp-gray);
 }
 
 .gp-menu-row>.col.gp-menu-more {

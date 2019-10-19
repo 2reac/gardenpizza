@@ -501,10 +501,27 @@ img {
 .gp-about-us-right {
   display: inline;
   float: left;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  padding: 0 30px;
+  margin-top: 88px;
+  margin-bottom: 88px;
+  padding: 0;
   width: 100%;
+  text-align: center;
+}
+
+.gp-about-us-right h1 {
+  font-size: 56px;
+  font-family: "Pacifico";
+  color: var(--gp-gray);
+  text-shadow: 3px 2px 1px var(--gp-main);
+  margin-bottom: opx;
+}
+
+.gp-about-us-right h2 {
+  font-size: 40px;
+  font-family: "Pacifico";
+  color: var(--gp-scnd);
+  text-shadow: 3px 2px 1px var(--gp-gray);
+  margin-bottom: 32px;
 }
 
 .gp-about-us-right ul {
@@ -564,6 +581,12 @@ img {
   font-family: "Leckerli One";
   font-size: 48px;
   margin-bottom: 16px;
+}
+
+@media (max-width: 449.98px) {
+  .gp-about-us-right h1 {
+    font-size: 38px;
+  }
 }
 
 /* COUNTER SECTION */
@@ -1590,7 +1613,7 @@ img {
 
 .hr-text:after {
   font-size: 40px;
-  font-family: "Leckerli One";
+  font-family: "Pacifico";
   content: attr(data-content);
   position: relative;
   display: inline-block;
@@ -1771,6 +1794,10 @@ img {
   #gp-client-testimonial .gp-client-testimonial-area .gp-testimonial-content .gp-testimonial-slider li .gp-testimonial-single .gp-testimonial-info p::before {
     top: 40%;
   }
+
+  .gp-about-us-right h2 {
+    padding-top: 16px;
+  }
 }
 
 
@@ -1883,10 +1910,6 @@ img {
     top: 20%;
   }
 
-  .gp-top-slider .gp-top-slider-single .gp-top-slider-content p {
-    display: none;
-  }
-
   .gp-reservation-content p {
     padding: 0;
   }
@@ -1934,6 +1957,14 @@ img {
   }
 }
 
+@media (max-width: 424.98px) {
+
+  #gp-slider .gp-slider-area .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
 @media (max-width: 379.98px) {
   .gp-counter-nav {
     font-size: 64px;
@@ -1941,11 +1972,6 @@ img {
 }
 
 @media (max-width: 359.98px) {
-
-  #gp-slider .gp-slider-area .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-title {
-    font-size: 22px;
-    line-height: 30px;
-  }
 
   .gp-top-slider .gp-top-slider-single .gp-top-slider-content .gp-slider-small-title {
     font-size: 30px;
@@ -2240,6 +2266,30 @@ section#cook-delecious {
 @media (min-width: 521px) and (max-width: 991.98px) {
   section#cook-delecious .cook-content {
     letter-spacing: 5px
+  }
+}
+
+@media (min-width: 640px) and (max-width: 699.98px) {
+  .gp-top-slider .gp-top-slider-single .gp-top-slider-content p {
+    display: none;
+  }
+}
+
+@media (max-width: 489.98px) {
+  .gp-top-slider .gp-top-slider-single .gp-top-slider-content p {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 424.98px) {
+  .gp-top-slider .gp-top-slider-single .gp-top-slider-content p {
+    display: block;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .gp-top-slider .gp-top-slider-single .gp-top-slider-content p {
+    display: none;
   }
 }
 
@@ -2562,8 +2612,8 @@ section#cook-delecious {
   }
 
   .gp-about-us-right {
-    margin-top: 7.5px;
-    margin-bottom: 7.5px;
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
 }
 

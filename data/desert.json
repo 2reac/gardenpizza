@@ -1,22 +1,22 @@
 [
-    {
-      "nume": "Pr&#259;jitura casei",
-      "info": "",
-      "pret": "8"
-    }
-    ,{
-      "nume": "Papana&#351;i",
-      "info": "350g",
-      "pret": "15"
-    }
-    ,{
-      "nume": "Tiramisu",
-      "info": "",
-      "pret": "10"
-    }
-    ,{
-      "nume": "Cl&#259;tite",
-      "info": "2 buc&#259;&#355;i",
-      "pret": "8"
-    }
-  ]
+  {
+    "nume": "Pr&#259;jitura casei",
+    "info": "",
+    "pret": "8"
+  }
+  ,{
+    "nume": "Papana&#351;i",
+    "info": "350g",
+    "pret": "15"
+  }
+  ,{
+    "nume": "Tiramisu",
+    "info": "",
+    "pret": "10"
+  }
+  ,{
+    "nume": "Cl&#259;tite",
+    "info": "2 buc&#259;&#355;i",
+    "pret": "8"
+  }
+]

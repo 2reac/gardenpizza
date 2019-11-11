@@ -1536,6 +1536,10 @@ img {
   margin-bottom: 24px;
 }
 
+.gp-menu-wrapper#gp-daily-menu .gp-menu-row:last-child {
+  border-bottom: 0;
+}
+
 .gp-menu-wrapper {
   display: inline;
   float: left;
@@ -1578,15 +1582,19 @@ img {
   margin-bottom: 0px;
 }
 
-.gp-menu-title>h1,
-.gp-menu-title>h2,
-.gp-menu-title>h3 {
+.gp-menu-title>h1 {
+  font-size: 43px;
+}
+
+.gp-menu-title>h2 {
   font-size: 40px;
+}
+
+.gp-menu-title>h1,
+.gp-menu-title>h2 {
   font-family: "Pacifico";
   color: var(--gp-scnd);
-  line-height: 1em;
   text-align: center;
-  display: inline-block;
 }
 
 .hr-line {

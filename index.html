@@ -136,6 +136,16 @@
     </section>
     <!-- slider  -->
 
+    <section class="gp-menu-wrapper" id="gp-daily-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="MeniuHTML"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="cook-delecious">
         <div class="container">
             <div class="row">
@@ -721,6 +731,31 @@
     <script type="text/javascript" src="assets/js/app.js"></script>
     <!-- Custom js -->
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        $.getJSON("data/meniu.json", function (data) {
+            var html = '';
+            html += '<div class="gp-menu-title" style="margin-bottom: 0;">';
+            html += ' <h1 style="margin-bottom: 0;">Meniul Zilei</h1>';
+            html += ' <h2 style="margin-bottom: 0; color: var(--gp-gray)">- ' + data[0].pret + ' lei -</h2>';
+            html += '</div>';
+
+            $.each(data[0].meniu, function (index, value) {
+                html += '<div class="row gp-menu-row">';
+                html += ' <div class="col col-xs-9">';
+                html += '  <h2 class="gp-menu-name">' + value.nume + '</h2>';
+                html += '  <p class="gp-menu-info">' + value.info + '</p>';
+                html += ' </div>';
+                html += ' <div class="col col-xs-3">';
+                html += '  <h2 class="gp-menu-price"><span class="gp-price">' + value.data +
+                    '</span></h2>';
+                html += ' </div>';
+                html += '</div>';
+            });
+
+            $('#MeniuHTML').html(html);
+        });
+    </script>
 
 </body>
 

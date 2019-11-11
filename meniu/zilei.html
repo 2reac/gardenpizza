@@ -54,17 +54,17 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right gp-main-nav">
 
-                        <li class="navbar-item-lg"><a href="../meniu/zilei.html">Meniul Zilei</a></li>
+                        <li class="navbar-item-lg"><a class="active">Meniul Zilei</a></li>
                         <li class="navbar-item-lg"><a href="../meniu/pizza.html">Pizza</a></li>
                         <li class="navbar-item-lg">
                             <div class="gp-dropdown">
-                                <a class="gp-dropbtn active">Meniu</a>
+                                <a class="gp-dropbtn">Meniu</a>
                                 <div class="gp-dropdown-content" style="min-width: 100px;">
                                     <a href="../meniu/piadine.html">Piadine</a>
                                     <a href="../meniu/salate.html">Salate</a>
                                     <a href="../meniu/paste.html">Paste</a>
                                     <a href="../meniu/desert.html">Desert</a>
-                                    <a class="active">Platouri</a>
+                                    <a href="../meniu/platouri.html">Platouri</a>
                                 </div>
                             </div>
                         </li>
@@ -85,9 +85,9 @@
                         <li class="navbar-item-md gp-switch"><a href="../meniu/salate.html">Salate</a></li>
                         <li class="navbar-item-md gp-switch"><a href="../meniu/paste.html">Paste</a></li>
                         <li class="navbar-item-md gp-switch"><a href="../meniu/desert.html">Desert</a></li>
-                        <li class="navbar-item-md gp-switch"><a class="active">Platouri</a></li>
+                        <li class="navbar-item-md gp-switch"><a href="../meniu/platouri.html">Platouri</a></li>
                         <li class="navbar-item-md gp-switch" id="mobile-call"><a>Sun&#259;-ne</a></li>
-                        <li class="navbar-item-md gp-switch-tel"><a href="../meniu/zilei.html">Meniul Zilei</a></li>
+                        <li class="navbar-item-md gp-switch-tel"><a class="active">Meniul Zilei</a></li>
                         <li class="navbar-item-md gp-switch-tel" id="mobile-menu"><a>Meniu</a></li>
                         <li class="navbar-item-md gp-switch-tel"><a href="../despre.html">Despre</a></li>
                         <li class="navbar-item-md gp-switch-tel"><a href="tel: +40724770007">0724 77 00 07</a></li>
@@ -107,7 +107,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div id="PlatouriHTML"></div>
+                        <div id="MeniuHTML"></div>
                     </div>
                 </div>
             </div>
@@ -184,26 +184,27 @@
     <script src="../assets/js/custom.js"></script>
 
     <script>
-        $.getJSON("../data/platouri.json", function (data) {
+        $.getJSON("../data/meniu.json", function (data) {
             var html = '';
-            html += '<div class="gp-menu-title">';
-            html += '<h1>Platouri</h1>';
+            html += '<div class="gp-menu-title" style="margin-bottom: 0;">';
+            html += ' <h1 style="margin-bottom: 0;">Meniul Zilei</h1>';
+            html += ' <h2 style="margin-bottom: 0; color: var(--gp-gray)">- ' + data[0].pret + ' lei -</h2>';
             html += '</div>';
-            $.each(data, function (index, value) {
+
+            $.each(data[0].meniu, function (index, value) {
                 html += '<div class="row gp-menu-row">';
                 html += ' <div class="col col-xs-9">';
                 html += '  <h2 class="gp-menu-name">' + value.nume + '</h2>';
-                $.each(value.info, function (pos, vector) {
-                    html += ' <p class="gp-menu-info">' + vector + '</p>';
-                });
+                html += '  <p class="gp-menu-info">' + value.info + '</p>';
                 html += ' </div>';
                 html += ' <div class="col col-xs-3">';
-                html += '  <h2 class="gp-menu-price"><span class="gp-price">' + value.pret +
-                    ' lei</span></h2>';
+                html += '  <h2 class="gp-menu-price"><span class="gp-price">' + value.data +
+                    '</span></h2>';
                 html += ' </div>';
                 html += '</div>';
             });
-            $('#PlatouriHTML').html(html);
+
+            $('#MeniuHTML').html(html);
         });
     </script>
 </body>

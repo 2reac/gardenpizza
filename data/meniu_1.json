@@ -3,22 +3,22 @@
     "meniu": [
         {
             "nume": "Luni",
-            "info": "Ciorb&#259; de v&#259;cu&#355;&#259; + &#350;ni&#355;el de porc cu cartofi, salat&#259;, mur&#259;turi",
+            "info": "Ciorb&#259; de v&#259;cu&#355;&#259; + &#350;ni&#355;el de porc cu cartofi + Salat&#259; mur&#259;turi",
             "data": "11 noi."
         },
         {
             "nume": "Mar&#355;i",
-            "info": "Ciorb&#259; de burt&#259; + Pilaf de orez cu ciuperci, aripioare de pui, salat&#259; de varz&#259;",
+            "info": "Ciorb&#259; de burt&#259; + Pilaf de orez cu ciuperci, aripioare de pui + Salat&#259; varz&#259;",
             "data": "12 noi."
         },
         {
             "nume": "Miercuri",
-            "info": "Ciorb&#259; de fasole cu afumatur&#259; + Pulp&#259; dezosat&#259; cu cartofi, usturoi, salat&#259;",
+            "info": "Ciorb&#259; de fasole cu afum&#259;tur&#259; + Pulp&#259; dezosat&#259; cu cartofi, usturoi, salat&#259;",
             "data": "13 noi."
         },
         {
             "nume": "Joi",
-            "info": "Saramur&#259; de pui + Piept de porc, varz&#259; c&#259;lit&#259; cu m&#259;m&#259;ligu&#355;&#259;",
+            "info": "Saramur&#259; de pui + Piept de porc, varz&#259; c&#259;lit&#259;, m&#259;m&#259;ligu&#355;&#259;",
             "data": "14 noi."
         },
         {

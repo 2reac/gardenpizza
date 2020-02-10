@@ -1,0 +1,30 @@
+[{
+    "pret": "14",
+    "meniu": [
+        {
+            "nume": "Luni",
+            "info": "Ciorb&#259; de peri&#351;oare + Cartofi &#355;&#259;r&#259;ne&#351;ti cu cop&#259;nel + Salat&#259; varz&#259;",
+            "data": "02 dec."
+        },
+        {
+            "nume": "Mar&#355;i",
+            "info": "Ciorb&#259; de burt&#259; + Cartofi cu usturoi, pulp&#259; de pui + Salat&#259; gogo&#351;ari",
+            "data": "03 dec."
+        },
+        {
+            "nume": "Miercuri",
+            "info": "Ciorb&#259; de v&#259;cu&#355;&#259; + Piure de cartofi cu chiftelu&#355;e + Salat&#259; mur&#259;turi",
+            "data": "04 dec."
+        },
+        {
+            "nume": "Joi",
+            "info": "Ciorb&#259; de porc + Fasole cu ciolan afumat + Salat&#259; varz&#259;",
+            "data": "05 dec."
+        },
+        {
+            "nume": "Vineri",
+            "info": "Ciorb&#259; &#355;&#259;r&#259;neasc&#259; de pui + Musaca de cartofi + Salat&#259; crudit&#259;&#355;i",
+            "data": "06 dec."
+        }
+    ]
+}]

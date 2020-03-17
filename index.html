@@ -740,7 +740,10 @@
                 html += '<div class="row gp-menu-row">';
                 html += ' <div class="col col-xs-9">';
                 html += '  <h2 class="gp-menu-name">' + value.nume + '</h2>';
-                html += '  <p class="gp-menu-info">' + value.info + '</p>';
+                $.each(value.info, function (pos, vector) {
+                    html += ' <p class="gp-menu-info">' + vector + '</p>';
+                });
+                // html += '  <p class="gp-menu-info">' + value.info + '</p>';
                 html += ' </div>';
                 html += ' <div class="col col-xs-3">';
                 html += '  <h2 class="gp-menu-price"><span class="gp-price">' + value.data +

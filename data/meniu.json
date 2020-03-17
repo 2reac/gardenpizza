@@ -1,0 +1,29 @@
+[{
+    "pret": "14",
+    "meniu": [
+        {
+            "nume": "Miercuri",
+            "info": [
+                "Ciorb&#259; de porc / Sup&#259; crem&#259; de legume",
+                "Pulpe de pui cu cartofi la cuptor / M&#226;ncare de maz&#259;re (post)"
+            ],
+            "data": "18 mar."
+        },
+        {
+            "nume": "Joi",
+            "info": [
+                "Ciorb&#259; de pui a la grec / Ciorb&#259; de ro&#351;ii",
+                "Tochitur&#259; cu m&#259;m&#259;ligu&#355;&#259; / M&#226;ncare de ro&#351;ii (post)"
+            ],
+            "data": "19 mar."
+        },
+        {
+            "nume": "Vineri",
+            "info": [
+                "Ciorb&#259; de peri&#351;oare / Ciorb&#259; de cartofi",
+                "Fasole groas&#259; cu c&#226;rna&#355;i / Fasole groas&#259; (post) + acritur&#259;"
+            ],
+            "data": "20 mar."
+        }
+    ]
+}]

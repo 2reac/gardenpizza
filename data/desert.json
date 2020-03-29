@@ -2,21 +2,26 @@
   {
     "nume": "Pr&#259;jitura casei",
     "info": "",
-    "pret": "8"
+    "pret": "7"
   }
   ,{
     "nume": "Papana&#351;i",
     "info": "350g",
-    "pret": "15"
+    "pret": "12"
   }
   ,{
     "nume": "Tiramisu",
-    "info": "",
+    "info": "Pi&#351;coturi, mascarpone, ou&#259;, fri&#351;c&#259;, lichior, cacao, cafea",
     "pret": "10"
   }
   ,{
     "nume": "Cl&#259;tite",
-    "info": "2 buc&#259;&#355;i",
+    "info": "Finetti / fructe de p&#259;dure / vi&#351;ine / afine - 2 buc",
     "pret": "8"
+  }
+  ,{
+    "nume": "Cl&#259;tite",
+    "info": "Nutella &#351;i banane",
+    "pret": "10"
   }
 ]

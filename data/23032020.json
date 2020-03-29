@@ -1,0 +1,45 @@
+[{
+    "pret": "15",
+    "meniu": [
+        {
+            "nume": "Luni",
+            "info": [
+                "Ciorb&#259; de curcan / Sup&#259; crem&#259; de legume cu crutoane",
+                "Ceaf&#259; de porc cu cartofi &#355;&#259;r&#259;ne&#351;ti &#351;i mur&#259;turi / M&#226;ncare de fasole verde"
+            ],
+            "data": "23 mar."
+        },
+        {
+            "nume": "Mar&#355;i",
+            "info": [
+                "Ciorb&#259; ardeleneasc&#259; de porc / Ciorb&#259; de cartofi",
+                "Musaca de cartofi &#351;i salat&#259; / Legume la cuptor"
+            ],
+            "data": "24 mar."
+        },
+        {
+            "nume": "Miercuri",
+            "info": [
+                "Ciorb&#259; de burt&#259; / Sup&#259; crem&#259; de ciuperci",
+                "Toc&#259;ni&#355;&#259; de cartofi cu afum&#259;tur&#259; / Varz&#259; c&#259;lit&#259;"
+            ],
+            "data": "25 mar."
+        },
+        {
+            "nume": "Joi",
+            "info": [
+                "Ciorb&#259; de vit&#259; / Sup&#259; cu taie&#355;ei",
+                "Chiftelu&#355;e cu sos marinat, piure de cartofi, salat&#259; de varz&#259; / Paste cu sos ro&#351;u &#351;i usturoi"
+            ],
+            "data": "26 mar."
+        },
+        {
+            "nume": "Vineri",
+            "info": [
+                "Ciorb&#259; de fasole boabe cu ciolan / Ciorb&#259; de ro&#351;ii",
+                "Pilaf de orez cu ciuperci &#351;i aripioare de pui, salat&#259; / Pilaf de orez cu ciuperci &#351;i legume"
+            ],
+            "data": "27 mar."
+        }
+    ]
+}]

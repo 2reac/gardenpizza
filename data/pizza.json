@@ -2,22 +2,22 @@
   {
     "nume": "Garden",
     "info": "grancucina, mozzarella, piept de pui, ardei gras, ciuperci, dovlecei, usturoi",
-    "pret": "22"
+    "pret": "23"
   }
   ,{
     "nume": "Pizza Casei",
     "info": "sos de ro&#351;ii, mozzarella, bacon, ciuperci, m&#259;sline, parmezan",
-    "pret": "20"
+    "pret": "22"
   }
   ,{
     "nume": "Prosciutto Crudo e Rucola",
     "info": "rucola, ro&#351;ii cherry, parmezan, prosciutto crudo",
-    "pret": "23"
+    "pret": "25"
   }
   ,{
     "nume": "Margherita",
     "info": "sos ro&#351;ii, mozzarella, busuioc",
-    "pret": "15"
+    "pret": "17"
   }
   ,{
     "nume": "Prosciutto Cotto",
@@ -32,71 +32,76 @@
   ,{
     "nume": "Quattro Stagioni",
     "info": "sos ro&#351;ii, mozzarella, &#351;unc&#259;, ciuperci, salam, ardei, m&#259;sline",
-    "pret": "21"
+    "pret": "23"
   }
   ,{
     "nume": "Diavola",
     "info": "sos ro&#351;ii, mozzarella, salam ventricina",
-    "pret": "18"
+    "pret": "20"
   }
   ,{
-    "nume": "Quattro Formagi",
+    "nume": "Quattro Formaggi",
     "info": "mozzarella, gorgonzola, brie, parmezan",
-    "pret": "22"
+    "pret": "23"
   }
   ,{
     "nume": "Vegetarian&#259;",
     "info": "sos ro&#351;ii, mozzarella, ciuperci, ardei gras, ro&#351;ii, ceap&#259;, m&#259;sline, porumb",
-    "pret": "19"
+    "pret": "20"
   }
   ,{
     "nume": "Rustic&#259;",
     "info": "sos ro&#351;ii, mozzarella, bacon, c&#226;rna&#355;i, ceap&#259; ro&#351;ie, ardei gras, m&#259;sline, ciuperci, telemea",
-    "pret": "22"
+    "pret": "23"
   }
   ,{
     "nume": "Capriciosa",
     "info": "sos ro&#351;ii, &#351;unc&#259;, mozzarella, ciuperci, ardei gras, m&#259;sline, ou",
-    "pret": "19"
+    "pret": "21"
   }
   ,{
     "nume": "Calzone",
     "info": "sos ro&#351;ii, mozzarella, ciuperci, &#351;unc&#259;, salam, m&#259;sline, ou",
-    "pret": "19"
+    "pret": "21"
   }
   ,{
     "nume": "Pollo",
     "info": "sos ro&#351;ii, mozzarella, piept de pui",
-    "pret": "19"
+    "pret": "20"
   }
   ,{
     "nume": "Pollo e Funghi",
     "info": "sos ro&#351;ii, mozzarella, piept de pui, ciuperci",
-    "pret": "20"
+    "pret": "21"
   }
   ,{
     "nume": "Tonno",
     "info": "sos ro&#351;ii, ton, ceap&#259; ro&#351;ie, m&#259;sline",
-    "pret": "20"
+    "pret": "21"
   }
   ,{
     "nume": "Carbonara",
     "info": "grancucina, mozzarella, bacon, parmezan, ou",
-    "pret": "19"
+    "pret": "21"
   }
   ,{
     "nume": "Salami",
     "info": "sos ro&#351;ii, mozzarella, salam",
-    "pret": "18"
+    "pret": "20"
   }
   ,{
     "nume": "Quattro Carni",
     "info": "sos ro&#351;ii, mozzarella, piept de pui, salam, c&#226;rna&#355;i, &#351;unc&#259;",
-    "pret": "20"
+    "pret": "23"
+  }
+  ,{
+    "nume": "Pizza Dolce",
+    "info": "finetti, banane, topping de alune",
+    "pret": "19"
   }
   ,{
     "nume": "Focaccia",
     "info": "rozmarin, sare, piper, ulei de m&#259;sline",
-    "pret": "7"
+    "pret": "8"
   }
 ]

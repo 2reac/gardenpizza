@@ -2,28 +2,44 @@
     "pret": "15",
     "meniu": [
         {
+            "nume": "Luni",
+            "info": [
+                "Ciorb&#259; de pui a la grec / Ciorb&#259; de legume",
+                "&#350;ni&#355;el de porc cu cartofi pr&#259;ji&#355;i &#351;i salat&#259; / M&#226;ncare de praz cu m&#259;sline"
+            ],
+            "data": "30 mar."
+        },
+        {
+            "nume": "Mar&#355;i",
+            "info": [
+                "Ciorb&#259; de peri&#351;oare / Sup&#259; crem&#259; de linte",
+                "Varz&#259; c&#259;lit&#259; cu c&#226;rna&#355;i &#351;i mur&#259;turi/ M&#226;ncare de cartofi"
+            ],
+            "data": "31 mar."
+        },
+        {
             "nume": "Miercuri",
             "info": [
-                "Ciorb&#259; de porc / Sup&#259; crem&#259; de legume",
-                "Pulpe de pui cu cartofi la cuptor / M&#226;ncare de maz&#259;re (post)"
+                "Sup&#259; de pui cu taie&#355;ei de cas&#259; / Ciorb&#259; de ro&#351;ii",
+                "Piept de pui cu sos alb, ciuperci &#351;i salat&#259; / Orez cu legume &#351;i ciuperci"
             ],
-            "data": "18 mar."
+            "data": "01 apr."
         },
         {
             "nume": "Joi",
             "info": [
-                "Ciorb&#259; de pui a la grec / Ciorb&#259; de ro&#351;ii",
-                "Tochitur&#259; cu m&#259;m&#259;ligu&#355;&#259; / M&#226;ncare de ro&#351;ii (post)"
+                "Ciorb&#259; de porc / Ciorb&#259; de varz&#259;",
+                "Fic&#259;&#355;ei de pui cu sos ro&#351;u, piure &#351;i salat&#259; / Iahnie de fasole cu ceap&#259;"
             ],
-            "data": "19 mar."
+            "data": "02 apr."
         },
         {
             "nume": "Vineri",
             "info": [
-                "Ciorb&#259; de peri&#351;oare / Ciorb&#259; de cartofi",
-                "Fasole groas&#259; cu c&#226;rna&#355;i / Fasole groas&#259; (post) + acritur&#259;"
+                "Ciorb&#259; de vit&#259; / Sup&#259; crem&#259; de dovlecel",
+                "Sarmale cu m&#259;m&#259;ligu&#355;&#259; &#351;i ardei iute / Sarmale de post"
             ],
-            "data": "20 mar."
+            "data": "03 apr."
         }
     ]
 }]

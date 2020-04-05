@@ -4,42 +4,42 @@
         {
             "nume": "Luni",
             "info": [
-                "Ciorb&#259; de pui a la grec / Ciorb&#259; de legume",
-                "&#350;ni&#355;el de porc cu cartofi pr&#259;ji&#355;i &#351;i salat&#259; / M&#226;ncare de praz cu m&#259;sline"
+                "Ciorb&#259; de burt&#259; / Ciorb&#259; de cartofi",
+                "Toc&#259;ni&#355;&#259; de inimi &#351;i pipote cu salat&#259; / Toc&#259;ni&#355;&#259; de ciuperci"
             ],
-            "data": "30 mar."
+            "data": "06 apr."
         },
         {
             "nume": "Mar&#355;i",
             "info": [
-                "Ciorb&#259; de peri&#351;oare / Sup&#259; crem&#259; de linte",
-                "Varz&#259; c&#259;lit&#259; cu c&#226;rna&#355;i &#351;i mur&#259;turi/ M&#226;ncare de cartofi"
+                "Ciorb&#259; &#355;&#259;r&#259;neasc&#259; de pui / Sup&#259; crem&#259; de legume",
+                "Cotlet la cuptor cu sos ro&#351;u &#351;i ciuperci / M&#226;ncare de maz&#259;re"
             ],
-            "data": "31 mar."
+            "data": "07 apr."
         },
         {
             "nume": "Miercuri",
             "info": [
-                "Sup&#259; de pui cu taie&#355;ei de cas&#259; / Ciorb&#259; de ro&#351;ii",
-                "Piept de pui cu sos alb, ciuperci &#351;i salat&#259; / Orez cu legume &#351;i ciuperci"
+                "Ciorb&#259; de fasole cu ciolan / Ciorb&#259; de fasole",
+                "Pulpe de pui cu orez &#351;i legume cu ciuperci / Paste cu legume"
             ],
-            "data": "01 apr."
+            "data": "08 apr."
         },
         {
             "nume": "Joi",
             "info": [
-                "Ciorb&#259; de porc / Ciorb&#259; de varz&#259;",
-                "Fic&#259;&#355;ei de pui cu sos ro&#351;u, piure &#351;i salat&#259; / Iahnie de fasole cu ceap&#259;"
+                "Ciorb&#259; de curcan / Ciorb&#259; de varz&#259;",
+                "M&#226;ncare de fasole boabe cu afum&#259;tur&#259; / M&#226;ncare de fasole boabe &#351;i mur&#259;turi"
             ],
-            "data": "02 apr."
+            "data": "09 apr."
         },
         {
             "nume": "Vineri",
             "info": [
-                "Ciorb&#259; de vit&#259; / Sup&#259; crem&#259; de dovlecel",
-                "Sarmale cu m&#259;m&#259;ligu&#355;&#259; &#351;i ardei iute / Sarmale de post"
+                "Sup&#259; de pui cu g&#259;lu&#351;te / Sup&#259; crem&#259; de maz&#259;re",
+                "Chiftelu&#355;e cu sos &#351;i piure cu salat&#259; / Ghiveci de legume la cuptor"
             ],
-            "data": "03 apr."
+            "data": "10 apr."
         }
     ]
 }]

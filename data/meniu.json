@@ -4,42 +4,34 @@
         {
             "nume": "Luni",
             "info": [
-                "Ciorb&#259; de burt&#259; / Ciorb&#259; de cartofi",
-                "Toc&#259;ni&#355;&#259; de inimi &#351;i pipote cu salat&#259; / Toc&#259;ni&#355;&#259; de ciuperci"
+                "Ciorb&#259; de peri&#351;oare a la grec / Ciorb&#259; de legume",
+                "Aripioare cu cartofi gratina&#355;i / Ciuperci sote cu usturoi &#351;i m&#259;m&#259;ligu&#355;&#259;"
             ],
-            "data": "06 apr."
+            "data": "13 apr."
         },
         {
             "nume": "Mar&#355;i",
             "info": [
-                "Ciorb&#259; &#355;&#259;r&#259;neasc&#259; de pui / Sup&#259; crem&#259; de legume",
-                "Cotlet la cuptor cu sos ro&#351;u &#351;i ciuperci / M&#226;ncare de maz&#259;re"
+                "Ciorb&#259; de varz&#259; cu carne de porc / Ciorb&#259; de ro&#351;ii",
+                "&#350;ni&#355;el de pui cu cartofi la cuptor cu rozmarin &#351;i salat&#259; / M&#226;ncare de linte"
             ],
-            "data": "07 apr."
+            "data": "14 apr."
         },
         {
             "nume": "Miercuri",
             "info": [
-                "Ciorb&#259; de fasole cu ciolan / Ciorb&#259; de fasole",
-                "Pulpe de pui cu orez &#351;i legume cu ciuperci / Paste cu legume"
+                "Ciorb&#259; de cartofi cu afum&#259;tur&#259; / Sup&#259; crem&#259; de dovlecel",
+                "Ceaf&#259; cu cartofi pr&#259;ji&#355;i &#351;i salat&#259; / Toc&#259;ni&#355;&#259; de legume"
             ],
-            "data": "08 apr."
+            "data": "15 apr."
         },
         {
             "nume": "Joi",
             "info": [
-                "Ciorb&#259; de curcan / Ciorb&#259; de varz&#259;",
-                "M&#226;ncare de fasole boabe cu afum&#259;tur&#259; / M&#226;ncare de fasole boabe &#351;i mur&#259;turi"
+                "Saramur&#259; de pui / Ciorb&#259; de praz",
+                "M&#259;m&#259;ligu&#355;&#259; cu sm&#226;nt&#226;n&#259;, br&#226;nz&#259; &#351;i ou /  Toc&#259;ni&#355;&#259; de cartofi"
             ],
-            "data": "09 apr."
-        },
-        {
-            "nume": "Vineri",
-            "info": [
-                "Sup&#259; de pui cu g&#259;lu&#351;te / Sup&#259; crem&#259; de maz&#259;re",
-                "Chiftelu&#355;e cu sos &#351;i piure cu salat&#259; / Ghiveci de legume la cuptor"
-            ],
-            "data": "10 apr."
+            "data": "16 apr."
         }
     ]
 }]

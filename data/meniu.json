@@ -2,36 +2,36 @@
     "pret": "15",
     "meniu": [
         {
-            "nume": "Luni",
-            "info": [
-                "Ciorb&#259; de peri&#351;oare a la grec / Ciorb&#259; de legume",
-                "Aripioare cu cartofi gratina&#355;i / Ciuperci sote cu usturoi &#351;i m&#259;m&#259;ligu&#355;&#259;"
-            ],
-            "data": "13 apr."
-        },
-        {
             "nume": "Mar&#355;i",
             "info": [
-                "Ciorb&#259; de varz&#259; cu carne de porc / Ciorb&#259; de ro&#351;ii",
-                "&#350;ni&#355;el de pui cu cartofi la cuptor cu rozmarin &#351;i salat&#259; / M&#226;ncare de linte"
+                "Ciorb&#259; de curcan",
+                "Musaca de cartofi &#351;i acrituri"
             ],
-            "data": "14 apr."
+            "data": "21 apr."
         },
         {
             "nume": "Miercuri",
             "info": [
-                "Ciorb&#259; de cartofi cu afum&#259;tur&#259; / Sup&#259; crem&#259; de dovlecel",
-                "Ceaf&#259; cu cartofi pr&#259;ji&#355;i &#351;i salat&#259; / Toc&#259;ni&#355;&#259; de legume"
+                "Ciorb&#259; &#355;&#259;r&#259;neasc&#259; de porc",
+                "Piept de pui &#238;n sos alb &#351;i ciuperci + salat&#259;"
             ],
-            "data": "15 apr."
+            "data": "22 apr."
         },
         {
             "nume": "Joi",
             "info": [
-                "Saramur&#259; de pui / Ciorb&#259; de praz",
-                "M&#259;m&#259;ligu&#355;&#259; cu sm&#226;nt&#226;n&#259;, br&#226;nz&#259; &#351;i ou /  Toc&#259;ni&#355;&#259; de cartofi"
+                "Sup&#259; de pui cu t&#259;i&#355;ei de cas&#259;",
+                "Toc&#259;ni&#355;&#259; de cartofi cu afum&#259;turi &#351;i acrituri"
             ],
-            "data": "16 apr."
+            "data": "23 apr."
+        },
+        {
+            "nume": "Vineri",
+            "info": [
+                "Ciorb&#259; de fasole cu ciolan",
+                "Pulp&#259; de pui &#351;i cartofi cu rozmarin la cuptor + salat&#259;"
+            ],
+            "data": "24 apr."
         }
     ]
 }]

@@ -54,7 +54,6 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right gp-main-nav">
 
-                        <li class="navbar-item-lg"><a href="meniu/zilei.html">Meniul Zilei</a></li>
                         <li class="navbar-item-lg"><a href="meniu/pizza.html">Pizza</a></li>
                         <li class="navbar-item-lg">
                             <div class="gp-dropdown">
@@ -87,7 +86,6 @@
                         <li class="navbar-item-md gp-switch"><a href="meniu/desert.html">Desert</a></li>
                         <li class="navbar-item-md gp-switch"><a href="meniu/platouri.html">Platouri</a></li>
                         <li class="navbar-item-md gp-switch" id="mobile-call"><a>Sun&#259;-ne</a></li>
-                        <li class="navbar-item-md gp-switch-tel"><a href="meniu/zilei.html">Meniul Zilei</a></li>
                         <li class="navbar-item-md gp-switch-tel" id="mobile-menu"><a>Meniu</a></li>
                         <li class="navbar-item-md gp-switch-tel"><a href="despre.html">Despre</a></li>
                         <li class="navbar-item-md gp-switch-tel"><a href="tel: +40790531313">0790 53 13 13</a></li>
@@ -727,34 +725,6 @@
     <script type="text/javascript" src="assets/js/app.js"></script>
     <!-- Custom js -->
     <script src="assets/js/custom.js"></script>
-
-    <script>
-        $.getJSON("data/meniu.json", function (data) {
-            var html = '';
-            html += '<div class="gp-menu-title">';
-            html += ' <h1 style="margin-bottom: 0;">Meniul Zilei</h1>';
-            html += ' <h2 style="margin-bottom: 0; color: var(--gp-gray)">- ' + data[0].pret + ' lei -</h2>';
-            html += '</div>';
-
-            $.each(data[0].meniu, function (index, value) {
-                html += '<div class="row gp-menu-row">';
-                html += ' <div class="col col-xs-9">';
-                html += '  <h2 class="gp-menu-name">' + value.nume + '</h2>';
-                $.each(value.info, function (pos, vector) {
-                    html += ' <p class="gp-menu-info">' + vector + '</p>';
-                });
-                // html += '  <p class="gp-menu-info">' + value.info + '</p>';
-                html += ' </div>';
-                html += ' <div class="col col-xs-3">';
-                html += '  <h2 class="gp-menu-price"><span class="gp-price">' + value.data +
-                    '</span></h2>';
-                html += ' </div>';
-                html += '</div>';
-            });
-
-            $('#MeniuHTML').html(html);
-        });
-    </script>
 
 </body>
 

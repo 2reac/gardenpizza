@@ -2,36 +2,44 @@
     "pret": "15",
     "meniu": [
         {
+            "nume": "Luni",
+            "info": [
+                "Ciorb&#259; de pui a la grec",
+                "&#350;ni&#355;el de porc cu cartofi pr&#259;ji&#355;i &#351;i salat&#259;"
+            ],
+            "data": "06 apr."
+        },
+        {
             "nume": "Mar&#355;i",
             "info": [
-                "Ciorb&#259; de curcan",
-                "Musaca de cartofi &#351;i acrituri"
+                "Ciorb&#259; de peri&#351;oare",
+                "Toc&#259;ni&#355;&#259; de inimi &#351;i pipote cu salat&#259;"
             ],
-            "data": "21 apr."
+            "data": "07 apr."
         },
         {
             "nume": "Miercuri",
             "info": [
-                "Ciorb&#259; &#355;&#259;r&#259;neasc&#259; de porc",
-                "Piept de pui &#238;n sos alb &#351;i ciuperci + salat&#259;"
+                "Ciorb&#259; de vit&#259; / Ciorb&#259; de ro&#351;ii",
+                "Varz&#259; c&#259;lit&#259; cu c&#226;rna&#355;i &#351;i ardei iute / Varz&#259; c&#259;lit&#259; &#351;i ardei iute"
             ],
-            "data": "22 apr."
+            "data": "08 apr."
         },
         {
             "nume": "Joi",
             "info": [
-                "Sup&#259; de pui cu t&#259;i&#355;ei de cas&#259;",
-                "Toc&#259;ni&#355;&#259; de cartofi cu afum&#259;turi &#351;i acrituri"
+                "Ciorb&#259; de porc",
+                "Fic&#259;&#355;ei cu sos ro&#351;u &#351;i piure + salat&#259;"
             ],
-            "data": "23 apr."
+            "data": "09 apr."
         },
         {
             "nume": "Vineri",
             "info": [
-                "Ciorb&#259; de fasole cu ciolan",
-                "Pulp&#259; de pui &#351;i cartofi cu rozmarin la cuptor + salat&#259;"
+                "Ciorb&#259; de pui / Sup&#259; crem&#259; de legume",
+                "Sarmale cu m&#259;m&#259;ligu&#355;&#259; &#351;i ardei iute / Sarmale de post cu m&#259;m&#259;ligu&#355;&#259; &#351;i ardei iute"
             ],
-            "data": "24 apr."
+            "data": "10 apr."
         }
     ]
 }]

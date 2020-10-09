@@ -1,0 +1,45 @@
+[{
+    "pret": "15",
+    "meniu": [
+        {
+            "nume": "Luni",
+            "info": [
+                "Ciorb&#259; de curcan",
+                "Musaca de cartofi + salat&#259;"
+            ],
+            "data": "18 mai."
+        },
+        {
+            "nume": "Mar&#355;i",
+            "info": [
+                "Ciorb&#259; &#355;&#259;r&#259;neasc&#259; de porc",
+                "Piept de pui cu sos alb &#351;i ciuperci + salat&#259;"
+            ],
+            "data": "19 mai."
+        },
+        {
+            "nume": "Miercuri",
+            "info": [
+                "Ciorb&#259; de burt&#259; / Sup&#259; crem&#259; de ciuperci",
+                "Cop&#259;nele de pui cu orez &#351;i ciuperci + salat&#259; / Orez cu legume + salat&#259;"
+            ],
+            "data": "20 mai."
+        },
+        {
+            "nume": "Joi",
+            "info": [
+                "Sup&#259; de pui cu taie&#355;ei de cas&#259;",
+                "M&#226;ncare de cartofi cu afum&#259;tur&#259; + salat&#259;"
+            ],
+            "data": "21 mai."
+        },
+        {
+            "nume": "Vineri",
+            "info": [
+                "Ciorb&#259; de fasole cu ciolan / Ciorb&#259; de fasole",
+                "Pulpe de pui cu cartofi la cuptor / Cartofi cu rozmarin la cuptor"
+            ],
+            "data": "22 mai."
+        }
+    ]
+}]

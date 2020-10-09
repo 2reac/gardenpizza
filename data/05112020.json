@@ -1,0 +1,45 @@
+[{
+    "pret": "15",
+    "meniu": [
+        {
+            "nume": "Luni",
+            "info": [
+                "Ciorb&#259; de peri&#351;oare",
+                "Cop&#259;nele de pui cu cartofi gratina&#355;i &#351;i salat&#259;"
+            ],
+            "data": "11 mai."
+        },
+        {
+            "nume": "Mar&#355;i",
+            "info": [
+                "Sup&#259; de pui cu g&#259;lu&#351;te",
+                "M&#226;ncare de fasole boabe cu afum&#259;tur&#259; &#351;i mur&#259;turi"
+            ],
+            "data": "12 mai."
+        },
+        {
+            "nume": "Miercuri",
+            "info": [
+                "Ciorb&#259; de vit&#259; / Sup&#259; crem&#259; de dovlecel",
+                "&#350;ni&#355;el de pui cu piure &#351;i salat&#259; / Legume la cuptor"
+            ],
+            "data": "13 mai."
+        },
+        {
+            "nume": "Joi",
+            "info": [
+                "Ciorb&#259; ardeleneasc&#259; de pui",
+                "Cotlet la cuptor cu sos ro&#351;u &#351;i ciuperci + Salat&#259;"
+            ],
+            "data": "14 mai."
+        },
+        {
+            "nume": "Vineri",
+            "info": [
+                "Ciorb&#259; de cartofi cu afum&#259;tur&#259; / Ciorb&#259; de cartofi",
+                "Tochitur&#259; moldoveneasc&#259; cu m&#259;m&#259;ligu&#355;&#259; / M&#226;ncare de maz&#259;re"
+            ],
+            "data": "15 mai."
+        }
+    ]
+}]

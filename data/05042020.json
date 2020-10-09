@@ -1,0 +1,45 @@
+[{
+    "pret": "15",
+    "meniu": [
+        {
+            "nume": "Luni",
+            "info": [
+                "Ciorb&#259; de cartofi cu afum&#259;tur&#259;",
+                "M&#226;ncare de maz&#259;re cu aripioare &#351;i salat&#259;"
+            ],
+            "data": "04 mai."
+        },
+        {
+            "nume": "Mar&#355;i",
+            "info": [
+                "Ciorb&#259; de burt&#259;",
+                "Ceaf&#259; de porc cu cartofi &#355;&#259;r&#259;ne&#351;ti &#351;i salat&#259;"
+            ],
+            "data": "05 mai."
+        },
+        {
+            "nume": "Miercuri",
+            "info": [
+                "Ciorb&#259; de fasole cu ciolan / Ciorb&#259; de fasole",
+                "Pulpe superioare cu cartofi nature &#351;i salat&#259; / Paste cu legume"
+            ],
+            "data": "06 mai."
+        },
+        {
+            "nume": "Joi",
+            "info": [
+                "Ciorb&#259; de curcan",
+                "Chiftelu&#355;e cu sos marinat, piure &#351;i salat&#259;"
+            ],
+            "data": "07 mai."
+        },
+        {
+            "nume": "Vineri",
+            "info": [
+                "Saramur&#259; de pui / Sup&#259; crem&#259; de cartofi &#351;i &#355;elin&#259;",
+                "M&#259;m&#259;ligu&#355;&#259; cu sm&#226;nt&#226;n&#259;, telemea &#351;i ou / M&#226;ncare de fasole galben&#259;"
+            ],
+            "data": "08 mai."
+        }
+    ]
+}]

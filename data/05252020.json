@@ -1,0 +1,45 @@
+[{
+    "pret": "15",
+    "meniu": [
+        {
+            "nume": "Luni",
+            "info": [
+                "Ciorb&#259; de pui a la grec",
+                "&#350;ni&#355;el de porc cu cartofi pr&#259;ji&#355;i &#351;i salat&#259;"
+            ],
+            "data": "25 mai."
+        },
+        {
+            "nume": "Mar&#355;i",
+            "info": [
+                "Ciorb&#259; de peri&#351;oare",
+                "Ghiveci de legume cu carne de porc + mur&#259;turi"
+            ],
+            "data": "26 mai."
+        },
+        {
+            "nume": "Miercuri",
+            "info": [
+                "Ciorb&#259; de vit&#259; / Ciorb&#259; de ro&#351;ii",
+                "Pui shanghai + salat&#259; oriental&#259; / Salat&#259; oriental&#259;"
+            ],
+            "data": "27 mai."
+        },
+        {
+            "nume": "Joi",
+            "info": [
+                "Ciorb&#259; de porc",
+                "Fic&#259;&#355;ei cu sos ro&#351;u &#351;i piure + salat&#259;"
+            ],
+            "data": "28 mai."
+        },
+        {
+            "nume": "Vineri",
+            "info": [
+                "Ciorb&#259; &#355;&#259;r&#259;neasc&#259; de pui / Sup&#259; crem&#259; de legume",
+                "Sarmale cu m&#259;m&#259;ligu&#355;&#259; &#351;i ardei iute / Sarmale de post cu m&#259;m&#259;ligu&#355;&#259; &#351;i ardei iute"
+            ],
+            "data": "29 mai."
+        }
+    ]
+}]
